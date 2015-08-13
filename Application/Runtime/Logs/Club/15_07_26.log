@@ -1,0 +1,48 @@
+[ 2015-07-26T09:05:27+08:00 ] 127.0.0.1 /Club/index.php/Club/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-07-26T09:05:59+08:00 ] 127.0.0.1 /club/index.php/Club/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-07-26T09:06:48+08:00 ] 127.0.0.1 /club/index.php/Club/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-07-26T09:06:58+08:00 ] 127.0.0.1 /club/index.php/Club/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-07-26T09:06:59+08:00 ] 127.0.0.1 /club/index.php/Club/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-07-26T09:07:11+08:00 ] 127.0.0.1 /club/index.php/Club/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-07-26T09:07:16+08:00 ] 127.0.0.1 /club/index.php/Club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-07-26T09:08:26+08:00 ] 127.0.0.1 /club/index.php/Club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载控制器:Index
+

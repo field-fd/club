@@ -1,0 +1,130 @@
+[ 2015-08-03T11:27:33+08:00 ] 127.0.0.1 /club/index.php/Club/Activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-08-03T11:27:49+08:00 ] 127.0.0.1 /club/index.php/Club/Activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-08-03T11:27:49+08:00 ] 127.0.0.1 /club/index.php/Club/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-08-03T11:28:01+08:00 ] 127.0.0.1 /club/index.php/Club/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-08-03T11:28:02+08:00 ] 127.0.0.1 /club/index.php/Club/Department/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-08-03T11:28:13+08:00 ] 127.0.0.1 /club/index.php/Club/Activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-08-03T11:45:02+08:00 ] 127.0.0.1 /club/index.php/Club/Activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-08-03T11:53:29+08:00 ] 127.0.0.1 /club/index.php/Club/Activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-08-03T14:22:29+08:00 ] 127.0.0.1 /club/index.php/Club/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-08-03T14:25:09+08:00 ] 127.0.0.1 /club/index.php/Club/Department/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-08-03T14:25:14+08:00 ] 127.0.0.1 /club/index.php/Club/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-08-03T14:25:15+08:00 ] 127.0.0.1 /club/index.php/Club/Member/passedMember.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-08-03T14:25:18+08:00 ] 127.0.0.1 /club/index.php/Club/Member/showPassedMember/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-08-03T14:25:19+08:00 ] 127.0.0.1 /club/index.php/Club/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-08-03T14:26:11+08:00 ] 127.0.0.1 /club/index.php/Club/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-08-03T14:26:12+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-08-03T14:26:26+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-08-03T14:27:13+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-08-03T14:27:13+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-08-03T14:27:25+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+
+[ 2015-08-03T14:27:25+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-08-03T14:27:54+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-08-03T14:28:03+08:00 ] 127.0.0.1 /club/index.php/Club/Activity/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-08-03T14:28:05+08:00 ] 127.0.0.1 /club/index.php/Club/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-08-03T14:32:21+08:00 ] 127.0.0.1 /club/index.php/Club/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-08-03T14:44:55+08:00 ] 127.0.0.1 /club/index.php/Club/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+

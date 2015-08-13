@@ -1,0 +1,10 @@
+[ 2015-06-11T14:16:21+08:00 ] 127.0.0.1 /yi/Home/index/getTopic/nexttopic/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-06-11T14:16:26+08:00 ] 127.0.0.1 /yi/Home/index/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+

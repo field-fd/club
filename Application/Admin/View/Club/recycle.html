@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="slick Login">
+<meta name="author" content="Webdesigntuts+">
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.6.2.min.js"></script>
+</head>
+<body>
+<div id="slick-login" style="margin:80px auto;width:350px;">
+       <volist name="list" id="vo">
+          <span class="min-left"><a href="__URL__/showClub/id/{$vo.id}">{$vo.name} &nbsp;&nbsp;</a></span>
+          <a href="__URL__/recover/club_id/{$vo.id}">还原</a>  
+          <a href="__URL__/reject/club_id/{$vo.id}">驳回</a>       
+       </volist>  
+</div>
+</body>
+</html>

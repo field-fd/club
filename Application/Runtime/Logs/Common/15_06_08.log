@@ -1,0 +1,6 @@
+[ 2015-06-08T12:49:47+08:00 ] 127.0.0.1 /yi/Public/js/jquery-1.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+

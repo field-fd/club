@@ -1,0 +1,436 @@
+[ 2015-07-28T21:35:21+08:00 ] 127.0.0.1 /club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010144s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'club_app.club_topic' doesn't exist
+
+[ 2015-07-28T21:35:40+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-07-28T21:35:52+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-07-28T21:36:17+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-07-28T21:36:21+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-07-28T21:39:33+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-07-28T21:39:35+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-07-28T21:39:41+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2015-07-28T22:29:03+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2015-07-28T22:29:03+08:00 ] 127.0.0.1 /club/index.php/Home/Club/js/jquery-1.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 非法操作:js
+
+[ 2015-07-28T22:30:05+08:00 ] 127.0.0.1 /club/index.php/Home/Club/js/jquery-1.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 非法操作:js
+
+[ 2015-07-28T22:31:53+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-07-28T22:31:53+08:00 ] 127.0.0.1 /club/index.php/Home/Club/js/jquery-1.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 非法操作:js
+
+[ 2015-07-28T22:32:14+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-07-28T22:32:24+08:00 ] 127.0.0.1 /club/index.php/Home/Club/addDepartment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-07-28T22:32:25+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-07-28T22:32:37+08:00 ] 127.0.0.1 /club/index.php/Home/Club/addDepartment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-07-28T22:32:39+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-07-28T22:32:42+08:00 ] 127.0.0.1 /club/index.php/Home/Club/deleteDepartment?checkbox%5B%5D=2&Submit=%E5%88%A0%E9%99%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-07-28T22:32:44+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-07-28T22:32:53+08:00 ] 127.0.0.1 /club/index.php/Home/Club/addDepartment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-07-28T22:32:54+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-07-28T22:32:57+08:00 ] 127.0.0.1 /club/index.php/Home/Club/delete/checkbox/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 非法操作:delete
+
+[ 2015-07-28T22:33:39+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-07-28T22:33:41+08:00 ] 127.0.0.1 /club/index.php/Home/Club/deleteDepartment/checkbox/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-07-28T22:33:42+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-07-28T22:39:58+08:00 ] 127.0.0.1 /club/index.php/Home/Club/addDepartment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+
+[ 2015-07-28T22:39:59+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-07-28T22:40:23+08:00 ] 127.0.0.1 /club/index.php/Home/Club/deleteDepartment?checkbox%5B%5D=4&Submit=%E5%88%A0%E9%99%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-07-28T22:40:24+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-07-28T22:40:31+08:00 ] 127.0.0.1 /club/index.php/Home/Club/deleteDepartment?Submit=%E5%88%A0%E9%99%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-07-28T22:43:25+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-07-28T22:43:26+08:00 ] 127.0.0.1 /club/index.php/Home/Club/deleteDepartment?Submit=%E5%88%A0%E9%99%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-07-28T22:48:00+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-07-28T22:48:01+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-07-28T22:48:55+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-07-28T22:48:55+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-07-28T22:50:07+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-07-28T22:50:23+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-07-28T22:50:24+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-07-28T22:50:44+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-07-28T22:50:50+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-07-28T22:51:39+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-07-28T22:51:58+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-07-28T22:53:27+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-07-28T22:53:34+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-07-28T22:58:34+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-07-28T23:00:37+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-07-28T23:01:02+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-07-28T23:01:20+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-07-28T23:01:20+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-07-28T23:03:01+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-07-28T23:04:21+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-07-28T23:04:57+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-07-28T23:04:59+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-07-28T23:06:10+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-07-28T23:06:23+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-07-28T23:07:34+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2015-07-28T23:07:34+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-07-28T23:09:30+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-07-28T23:11:26+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-07-28T23:11:31+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-07-28T23:11:31+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-07-28T23:11:33+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-07-28T23:11:33+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-07-28T23:13:00+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-07-28T23:13:03+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-07-28T23:13:17+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-07-28T23:13:19+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-07-28T23:14:12+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2015-07-28T23:14:26+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-07-28T23:14:26+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-07-28T23:26:59+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-07-28T23:26:59+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-07-28T23:27:06+08:00 ] 127.0.0.1 /club/index.php/Home/Club/addDepartment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-07-28T23:27:07+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-07-28T23:27:12+08:00 ] 127.0.0.1 /club/index.php/Home/Club/alterDepartment?departmentName=%E5%91%B5%E5%91%B5%E5%93%92&departmentId=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2015-07-28T23:27:12+08:00 ] 127.0.0.1 /club/index.php/Home/Club/alterDepartment?departmentName=%E5%91%B5%E5%91%B5%E5%93%92&departmentId=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-07-28T23:27:53+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-07-28T23:27:58+08:00 ] 127.0.0.1 /club/index.php/Home/Club/alterDepartment?departmentName=%E5%91%B5%E5%91%B5%E5%93%92&departmentId=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-07-28T23:27:59+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2015-07-28T23:28:04+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-07-28T23:29:18+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-07-28T23:29:26+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-07-28T23:29:26+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-07-28T23:29:32+08:00 ] 127.0.0.1 /club/index.php/Home/Club/department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+

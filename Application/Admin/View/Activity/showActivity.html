@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="slick Login">
+<meta name="author" content="Webdesigntuts+">
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.6.2.min.js"></script>
+</head>
+<body>
+<div id="slick-login" style="margin:80px auto;width:350px;">
+    <a href="__URL__/index">主页</a> <br>
+       活动主题：{$activity.theme}<br>
+       活动内容 ：{$activity.content|str_to}<br>
+       宣传图片：<img src="__PUBLIC__/Uploads/{$activity.image}"><br>
+       发布时间 ：{$activity.time|date="Y-m-d H:i",###}<br>
+       <a href="__URL__/pass/activity_id/{$activity.id}">通过</a>  
+       <a href="__URL__/reject/activity_id/{$activity.id}">驳回</a>   
+       <a href="__URL__/delete/activity_id/{$activity.id}">删除</a>     
+</div>
+</body>
+</html>

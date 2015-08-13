@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="slick Login">
+<meta name="author" content="Webdesigntuts+">
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.6.2.min.js"></script>
+</head>
+<body>
+<div id="slick-login" style="margin:80px auto;width:350px;">
+    <a href="__URL__/index">主页</a> <br>
+       社团名：{$club.name}<br>
+       社团图标：<img src="__PUBLIC__/Uploads/{$club.image}"><br>
+       社团类型：{$club.type}<br>
+       介绍：{$club.introduce}<br>
+       负责人：{$member.chief}<br>
+       手机号：{$member.telephone}<br>
+       qq号：{$member.qq}<br>
+       <a href="__URL__/pass/member_id/{$member.id}">通过</a>  
+       <a href="__URL__/reject/member_id/{$member.id}">驳回</a>   
+       <a href="__URL__/delete/member_id/{$member.id}">删除</a>     
+</div>
+</body>
+</html>

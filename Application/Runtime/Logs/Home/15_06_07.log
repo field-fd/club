@@ -1,0 +1,166 @@
+[ 2015-06-07T00:28:42+08:00 ] 127.0.0.1 /yi/Home/Index/follow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-06-07T00:37:45+08:00 ] 127.0.0.1 /yi/Home/Index/cancelFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yijuhua.yi_article' doesn't exist
+
+[ 2015-06-07T00:38:00+08:00 ] 127.0.0.1 /yi/Home/Index/cancelFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'uid='0' AND pid='{pid}' at line 1
+
+[ 2015-06-07T00:38:30+08:00 ] 127.0.0.1 /yi/Home/Index/cancelFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'uid='0' AND pid='0' at line 1
+
+[ 2015-06-07T00:40:15+08:00 ] 127.0.0.1 /yi/Home/Index/cancelFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2015-06-07T00:50:06+08:00 ] 127.0.0.1 /yi/Home/User/showFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-06-07T00:50:52+08:00 ] 127.0.0.1 /yi/Home/User/showFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-06-07T00:56:04+08:00 ] 127.0.0.1 /yi/Home/User/myFollowers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2015-06-07T00:56:32+08:00 ] 127.0.0.1 /yi/Home/User/myFollowers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-06-07T00:57:01+08:00 ] 127.0.0.1 /yi/Home/User/myFollowers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-06-07T00:57:44+08:00 ] 127.0.0.1 /yi/Home/User/showLove
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-06-07T00:58:01+08:00 ] 127.0.0.1 /yi/Home/User/myComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-06-07T00:58:51+08:00 ] 127.0.0.1 /yi/Home/Index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-06-07T01:01:59+08:00 ] 127.0.0.1 /yi/Home/Index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2015-06-07T01:28:53+08:00 ] 127.0.0.1 /yi/Home/Index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-06-07T01:28:54+08:00 ] 127.0.0.1 /yi/Home/Index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-06-07T01:28:55+08:00 ] 127.0.0.1 /yi/Home/Index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2015-06-07T01:45:30+08:00 ] 127.0.0.1 /yi/Home/Index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-06-07T01:48:13+08:00 ] 127.0.0.1 /yi/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-06-07T01:48:29+08:00 ] 127.0.0.1 /yi/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-06-07T02:31:19+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/article/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 非法操作:article
+
+[ 2015-06-07T02:31:27+08:00 ] 127.0.0.1 /yi/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-06-07T02:35:53+08:00 ] 127.0.0.1 /yi/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-06-07T02:46:52+08:00 ] 127.0.0.1 /yi/index.php/Home/index/showComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-06-07T03:12:35+08:00 ] 127.0.0.1 /yi/index.php/Home/index/showUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-06-07T11:11:41+08:00 ] 127.0.0.1 /yi/index.php/Home/index/showUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2015-06-07T11:11:50+08:00 ] 127.0.0.1 /yi/index.php/Home/User/showLove
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-06-07T11:16:20+08:00 ] 127.0.0.1 /yi/index.php/Home/User/myComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2015-06-07T11:23:02+08:00 ] 127.0.0.1 /yi/index.php/Home/User/myFOllow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 非法操作:myFOllow
+
+[ 2015-06-07T11:23:07+08:00 ] 127.0.0.1 /yi/index.php/Home/User/myFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 非法操作:myFollow
+
+[ 2015-06-07T11:23:23+08:00 ] 127.0.0.1 /yi/index.php/Home/User/showFollow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-06-07T11:30:15+08:00 ] 127.0.0.1 /yi/index.php/Home/User/myFollowers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+

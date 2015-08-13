@@ -1,0 +1,1081 @@
+[ 2015-07-26T08:44:52+08:00 ] 127.0.0.1 /club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-07-26T09:02:42+08:00 ] 127.0.0.1 /Club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-07-26T09:04:05+08:00 ] 127.0.0.1 /Club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-07-26T09:04:06+08:00 ] 127.0.0.1 /Club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-07-26T09:06:38+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-07-26T09:08:30+08:00 ] 127.0.0.1 /club/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-07-26T09:09:00+08:00 ] 127.0.0.1 /club/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-07-26T09:09:41+08:00 ] 127.0.0.1 /club/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-07-26T09:09:45+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-07-26T09:10:13+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-07-26T09:10:13+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:10:13+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:11:03+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-07-26T09:11:04+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:11:18+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.2436397133860737
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:13:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-07-26T09:13:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:18:03+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-07-26T09:18:03+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:19:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 非法操作:handle
+
+[ 2015-07-26T09:19:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 非法操作:handle
+
+[ 2015-07-26T09:19:45+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:25:51+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-07-26T09:25:56+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:26:00+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-07-26T09:26:02+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:26:15+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-07-26T09:26:17+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:26:19+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-07-26T09:26:20+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:26:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-07-26T09:26:49+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:27:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-07-26T09:27:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:27:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:27:26+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-07-26T09:27:29+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:27:37+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-07-26T09:27:39+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:27:41+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-07-26T09:27:44+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:28:21+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-07-26T09:28:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:29:47+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-07-26T09:30:11+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-07-26T09:30:13+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:30:27+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-07-26T09:30:28+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:30:31+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-07-26T09:30:31+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:30:34+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-07-26T09:30:35+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T09:54:54+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-07-26T09:55:30+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-07-26T09:56:42+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-07-26T09:56:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-07-26T09:57:18+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-07-26T09:57:50+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-07-26T09:57:51+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-07-26T09:58:25+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-07-26T09:58:25+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-07-26T09:58:26+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+
+[ 2015-07-26T10:01:09+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-07-26T10:01:09+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-07-26T10:01:10+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-07-26T10:03:29+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-07-26T10:03:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-07-26T10:07:34+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-07-26T10:07:44+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-07-26T10:08:04+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-07-26T10:08:11+08:00 ] 127.0.0.1 /club/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'club_app.club_topic' doesn't exist
+
+[ 2015-07-26T10:08:13+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-07-26T10:08:15+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-07-26T10:08:49+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-07-26T10:08:49+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:08:52+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-07-26T10:08:55+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:09:30+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-07-26T10:09:34+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:09:40+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-07-26T10:09:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:10:21+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-07-26T10:10:22+08:00 ] 127.0.0.1 /club/index.php/Home/Register/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 非法操作:Register
+
+[ 2015-07-26T10:10:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2015-07-26T10:10:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:12:45+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-07-26T10:12:45+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:13:20+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2015-07-26T10:13:21+08:00 ] 127.0.0.1 /club/index.php/Home/Register/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 非法操作:Register
+
+[ 2015-07-26T10:13:46+08:00 ] 127.0.0.1 /club/index.php/Home/Register/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 非法操作:Register
+
+[ 2015-07-26T10:13:47+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:15:54+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-07-26T10:15:57+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:20:18+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-07-26T10:20:21+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:22:20+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-07-26T10:22:20+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:23:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-07-26T10:23:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:23:50+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-07-26T10:23:50+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:24:17+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-07-26T10:24:17+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:24:17+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:24:23+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-07-26T10:24:26+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:24:40+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-07-26T10:24:40+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:25:02+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-07-26T10:25:02+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:25:03+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-07-26T10:25:03+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:25:14+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-07-26T10:25:14+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:25:28+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-07-26T10:25:29+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 非法操作:verify
+
+[ 2015-07-26T10:33:01+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-07-26T10:33:01+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-07-26T10:35:38+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-07-26T10:35:38+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-07-26T10:35:40+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-07-26T10:37:10+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-07-26T10:37:10+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-07-26T10:37:11+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-07-26T10:38:04+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-07-26T10:39:23+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-07-26T10:39:33+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-07-26T10:39:46+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-07-26T10:39:51+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.45302968355827034
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-07-26T10:40:05+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-07-26T10:40:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+ERR: 非法操作:Register
+
+[ 2015-07-26T10:48:37+08:00 ] 127.0.0.1 /club/index.php/Home/Register/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020287s ]
+ERR: 非法操作:Register
+
+[ 2015-07-26T10:48:50+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2015-07-26T12:10:20+08:00 ] 127.0.0.1 /club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009328s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'club_app.club_topic' doesn't exist
+
+[ 2015-07-26T12:10:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-07-26T12:10:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-07-26T12:10:26+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-07-26T12:10:34+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-07-26T12:10:42+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-07-26T12:11:38+08:00 ] 127.0.0.1 /club/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-07-26T12:11:38+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-07-26T12:11:44+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-07-26T12:11:59+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-07-26T12:12:10+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-07-26T12:12:55+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6377487941645086
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-07-26T12:12:56+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6377487941645086?0.30646326881833375
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-07-26T12:13:00+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-07-26T12:13:12+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.18487109313718975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-07-26T12:13:17+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2015-07-26T12:13:23+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.9491504754405469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-07-26T12:14:12+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-07-26T12:16:19+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-07-26T12:16:32+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.48956233472563326
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-07-26T12:16:45+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-07-26T12:16:46+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2015-07-26T12:16:46+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+
+[ 2015-07-26T12:19:31+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-07-26T12:19:31+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-07-26T12:19:32+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6755201658234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-07-26T12:19:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-07-26T12:20:22+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.26566226477734745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-07-26T12:20:28+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2015-07-26T12:20:39+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.5600844803266227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2015-07-26T12:20:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+
+[ 2015-07-26T12:20:58+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.4576855150517076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-07-26T12:20:58+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.4576855150517076?0.23458666959777474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-07-26T12:20:59+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.4576855150517076?0.23458666959777474?0.4169808183796704
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2015-07-26T12:21:03+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-07-26T12:21:05+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-07-26T12:21:05+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-07-26T12:21:47+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-07-26T12:21:51+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-07-26T12:22:02+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-07-26T12:22:02+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-07-26T12:22:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-07-26T12:31:36+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-07-26T12:31:36+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-07-26T12:31:39+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-07-26T12:31:48+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-07-26T12:31:55+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-07-26T12:33:11+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.184192186454311
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-07-26T12:33:21+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-07-26T12:33:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-07-26T12:33:24+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-07-26T13:03:25+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-07-26T13:03:25+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-07-26T13:03:42+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.2943657005671412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-07-26T13:04:01+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-07-26T13:04:13+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.11636871588416398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-07-26T13:04:19+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-07-26T13:04:30+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.7951708962209523
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-07-26T13:04:31+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.7951708962209523?0.7201976738870144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-07-26T13:04:38+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-07-26T13:04:42+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6294120117090642
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-07-26T13:04:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6294120117090642?0.8599736767355353
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-07-26T13:04:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6294120117090642?0.8599736767355353?0.31048885942436755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-07-26T13:04:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6294120117090642?0.8599736767355353?0.31048885942436755?0.7307685341220349
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-07-26T13:04:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6294120117090642?0.8599736767355353?0.31048885942436755?0.7307685341220349?0.7397414797451347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-07-26T13:04:43+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.6294120117090642?0.8599736767355353?0.31048885942436755?0.7307685341220349?0.7397414797451347?0.7597184902988374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-07-26T13:05:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-07-26T13:05:09+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+
+[ 2015-07-26T13:05:09+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-07-26T13:09:44+08:00 ] 127.0.0.1 /club/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-07-26T13:09:44+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-07-26T13:10:07+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify?0.9449046908412129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-07-26T13:10:15+08:00 ] 127.0.0.1 /club/index.php/Home/Register/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+

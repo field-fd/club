@@ -1,0 +1,392 @@
+[ 2015-03-27T14:19:52+08:00 ] 127.0.0.1 /think/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: 无法加载模块:Placeholder
+
+[ 2015-03-27T14:19:52+08:00 ] 127.0.0.1 /think/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:Style
+
+[ 2015-03-27T14:21:02+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:21:02+08:00 ] 127.0.0.1 /think/_PUBLIC_/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:21:06+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:21:06+08:00 ] 127.0.0.1 /think/_PUBLIC_/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:21:51+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:23:51+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:23:51+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:23:51+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:23:51+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:23:52+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:23:52+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:23:53+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:23:53+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:23:53+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:23:53+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:07+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:29:07+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:08+08:00 ] 127.0.0.1 /think/_PUBLIC_/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2015-03-27T14:29:08+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:51+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:51+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:53+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:53+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:53+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:29:53+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:19+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:19+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:19+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:19+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:20+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:20+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:20+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+ERR: 无法加载模块:Public
+
+ic
+
+[ 2015-03-27T14:30:36+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:36+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:44+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:30:44+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:32:41+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:33:36+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:33:36+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:33:45+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:33:45+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001788s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:33:49+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:33:49+08:00 ] 127.0.0.1 /think/Public/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T14:34:42+08:00 ] 127.0.0.1 /think/Public/css/placeholder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003257s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-27T15:11:10+08:00 ] 127.0.0.1 /think/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-27T15:11:18+08:00 ] 127.0.0.1 /think/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-27T15:11:23+08:00 ] 127.0.0.1 /think/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017304s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-27T15:12:41+08:00 ] 127.0.0.1 /think/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017293s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-27T15:13:13+08:00 ] 127.0.0.1 /think/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:13:22+08:00 ] 127.0.0.1 /think/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:13:26+08:00 ] 127.0.0.1 /think/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:14:00+08:00 ] 127.0.0.1 /think/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003237s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:14:34+08:00 ] 127.0.0.1 /think/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:15:34+08:00 ] 127.0.0.1 /think/index.php?m=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-27T15:16:54+08:00 ] 127.0.0.1 /think/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:18:41+08:00 ] 127.0.0.1 /think/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:18:57+08:00 ] 127.0.0.1 /think/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+ERR: 无法加载模块:Login
+
+[ 2015-03-27T15:21:02+08:00 ] 127.0.0.1 /think/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:21:07+08:00 ] 127.0.0.1 /think/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003194s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:22:36+08:00 ] 127.0.0.1 /think/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004513s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:22:39+08:00 ] 127.0.0.1 /think/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:22:46+08:00 ] 127.0.0.1 /think/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-27T15:23:18+08:00 ] 127.0.0.1 /think/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002240s ]
+ERR: 无法加载模块:Index
+

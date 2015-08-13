@@ -1,0 +1,402 @@
+[ 2015-05-10T13:31:41+08:00 ] 127.0.0.1 /blog/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Css
+
+[ 2015-05-10T13:31:41+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:32:36+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:32:36+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:32:36+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:42:59+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:42:59+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:42:59+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:42:59+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:01+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:01+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:01+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:01+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:24+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:24+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:24+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007123s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:24+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:29+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:29+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:29+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:43:29+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:46:18+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:44+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:44+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:44+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:44+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:44+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005781s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002548s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:55+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:55+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:55+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:49:55+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:50:35+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:20+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:20+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:20+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003822s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:20+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:20+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:20+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/ph.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/time.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/r_title_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:52:21+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:53:31+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:54:46+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:54:46+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T13:55:31+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/side-icon02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T14:21:47+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T15:01:56+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T17:26:13+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T17:31:07+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T19:59:29+08:00 ] 127.0.0.1 /blog/note
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载模块:Note
+
+[ 2015-05-10T20:12:40+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-10T20:46:01+08:00 ] 127.0.0.1 /blog/Index/applife
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-10T20:46:21+08:00 ] 127.0.0.1 /blog/Index/applife.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-10T20:46:26+08:00 ] 127.0.0.1 /blog/index/applife.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-10T20:46:32+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/images/h_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Public
+

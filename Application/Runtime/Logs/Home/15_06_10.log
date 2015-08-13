@@ -1,0 +1,76 @@
+[ 2015-06-10T22:26:01+08:00 ] 127.0.0.1 /yi/index.php/Home/User/showLove
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002238s ]
+
+[ 2015-06-10T22:26:17+08:00 ] 127.0.0.1 /yi/index.php/Home/User/showLove
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+
+[ 2015-06-10T22:26:20+08:00 ] 127.0.0.1 /yi/index.php/Home/User/showLove
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+
+[ 2015-06-10T22:26:25+08:00 ] 127.0.0.1 /yi/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-06-10T22:26:46+08:00 ] 127.0.0.1 /yi/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-06-10T23:17:26+08:00 ] 127.0.0.1 /yi/index.php/Home/User/showLove
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003712s ]
+
+[ 2015-06-10T23:17:44+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/gettopic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+
+[ 2015-06-10T23:18:50+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/nexttopic/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000535s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003009s ]
+ERR: 非法操作:nexttopic
+
+[ 2015-06-10T23:19:08+08:00 ] 127.0.0.1 /yi/index.php/Home/Index//gettopic/nexttopic/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /yi/index.php/Home/Index//gettopic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+
+[ 2015-06-10T23:24:38+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/getComment/nextrow/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+
+[ 2015-06-10T23:25:04+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/getComment/nextrow/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+
+[ 2015-06-10T23:25:08+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/getComment/nextrow/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+
+[ 2015-06-10T23:25:11+08:00 ] 127.0.0.1 /yi/index.php/Home/Index/getComment/nextrow/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002641s ]
+
+[ 2015-06-10T23:28:48+08:00 ] 127.0.0.1 /yi/index.php/Home/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+
