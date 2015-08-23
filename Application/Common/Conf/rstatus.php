@@ -25,6 +25,7 @@ return array(
 	'TeacherError'		=> 2012, //指导教师错误
 	//部门
 	'DepartEmpty'  => 2013,  //部门错误
+	'NoData'
 	//学生简历申请
 	'ConllegeError'  => 2014,  //学院错误
 	'ClassError'     => 2015,  //班级错误
@@ -34,5 +35,7 @@ return array(
 	'ActivityError'  => 2019,  //活动内容错误
 	'UploadError'    => 2020,  //上传图片错误
 	//学生登陆
-	'HavaStudent'    => 2021,  //该学生邮箱已注册   
+	'HavaStudent'    => 2021,  //该学生邮箱已注册
+	// 管理员
+	'UserEmpty'      => 2022,  
 	);

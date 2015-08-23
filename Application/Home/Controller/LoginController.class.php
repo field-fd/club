@@ -19,7 +19,7 @@ class LoginController extends Controller{
          header("Content-type: text/html; charset=utf-8");
          $loginInfo = I();   
          $rUser=D('student')->Login($loginInfo);
-         if ($user){
+         if ($rUser){
              session('stu_id',$rUser['id']);
              session('username',$rUser['name']);
              ajax_return('登陆成功',C('Ok'),'Ok');

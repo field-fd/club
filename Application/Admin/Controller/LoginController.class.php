@@ -6,26 +6,28 @@ class LoginController extends Controller{
       $this->display();
     }
     
-
+    /**
+     * 登陆页面信息检查
+     * @author fangdong
+    */
+   public function LoginCheck(){
+            $LoginInfo = I();
+            $club = D('admin');
+            $club->checkLogin($LoginInfo);
+        } 
+  /**
+    * 登陆信息处理
+    * @author fangdong
+    */   
    public function handle(){  
-    header("Content-type: text/html; charset=utf-8");
-    $username=I('username');   //用户名
-    $password=md5(I('password'));  //密码
-    $where = array(
-          'username' => $username,
-          'password' => $password
-      );
-    if($username==""||$password==""){
-          $this->error('用户名或密码不能为空');
-    }else{
-	       $user=M('admin')->where($where)->find();
-         if (empty($user)){
-		      $this->error('用户名或密码错误');
-          }else{
-		    $this->success('登陆成功',U('Index/index'));
-	      session('username',$user['username']);
-       }
-     }  
+         header("Content-type: text/html; charset=utf-8");
+         $loginInfo = I();   
+         $rUser=D('admin')->Login($loginInfo);
+         if ($rUser){
+             ajax_return('登陆成功',C('Ok'),'Ok');
+         }else{
+            ajax_return('登录失败',C('Error'),'Error');
+      }  
    }
 
 }
