@@ -4,8 +4,12 @@ return array(
 	'Continue'  => 1001,
 	'Error'		=> 1002,
 	'NoLogin'   => 1003, //未登陆
-	'LoginError'    => 1004,    //登陆 用户名或者密码错误
-	'VerifyError'  =>1005,  //注册验证码错误
+	'VerifyError'  =>1004,  //验证码错误
+	 // 登陆验证
+    'LoginError' => 1005,   // 用户名或者密码错误
+    'EmailEmpty' => 1006,
+    'PasswdEmpty'=> 1007,
+    'LoginSuccess'=>1008,
 	//注册验证
 	'PasswdError'	=> 2001, //密码错误
 	'EmailError'	=> 2002, //邮箱错误
@@ -20,7 +24,7 @@ return array(
 	'IntroError'	=> 2011, //社团简介错误
 	'TeacherError'		=> 2012, //指导教师错误
 	//部门
-	'DeparementError'  => 2013,  //部门错误
+	'DepartEmpty'  => 2013,  //部门错误
 	//学生简历申请
 	'ConllegeError'  => 2014,  //学院错误
 	'ClassError'     => 2015,  //班级错误

@@ -50,7 +50,7 @@ class ApplyClubController extends CommonController {
         }
 
         /**
-         * 申请加入数据处理
+         * 申请加入社团数据处理
          * @author fangdong
          */
      public function applyJoin(){

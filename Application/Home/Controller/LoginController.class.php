@@ -8,7 +8,7 @@ class LoginController extends Controller{
       */
    public function LoginCheck(){
             $LoginInfo = I();
-            $club = D('Club');
+            $club = D('student');
             $club->checkLogin($LoginInfo);
         } 
     /**
@@ -18,10 +18,10 @@ class LoginController extends Controller{
    public function handle(){  
          header("Content-type: text/html; charset=utf-8");
          $loginInfo = I();   
-         $user=D('student')->Login($loginInfo);
+         $rUser=D('student')->Login($loginInfo);
          if ($user){
-             session('stu_id',$user['id']);
-             session('username',$user['name']);
+             session('stu_id',$rUser['id']);
+             session('username',$rUser['name']);
              ajax_return('登陆成功',C('Ok'),'Ok');
          }else{
             ajax_return('登录失败',C('Error'),'Error');

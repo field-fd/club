@@ -87,12 +87,12 @@ class StudentModel extends Model
                 switch ($key) {
                     case 'email':
                         if($loginInfo[$key]==''){
-                            ajax_return('请输入邮箱',C('EmailError'),'EmailError');
+                            ajax_return('请输入邮箱',C('EmailEmpty'),'EmailEmpty');
                         }
                         break;
                     case 'password':
                         if($loginInfo[$key]==''){
-                            ajax_return('请输入密码',C('PasswdError'),'PasswdError');
+                            ajax_return('请输入密码',C('PasswdEmpty'),'PasswdEmpty');
                         }                   
                         break;
                     default:
