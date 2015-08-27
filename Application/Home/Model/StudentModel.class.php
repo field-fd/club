@@ -14,12 +14,12 @@ class StudentModel extends Model
                 switch ($key) {
                     case 'name':
                         if($registerInfo[$key]==''){
-                            ajax_return('请输入姓名',C('NameError'),'NameError');
+                            ajax_return('请输入姓名',C('NameEmpty'),'NameEmpty');
                         }
                         break;
                     case 'email':
                         if($registerInfo[$key]==''){
-                            ajax_return('请输入邮箱',C('EmailError'),'EmailError');
+                            ajax_return('请输入邮箱',C('EmailEmpty'),'EmailEmpty');
                         }
                          if(!preg_match("/^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$/i",$registerInfo[$key])){  
                              ajax_return('请输入正确的邮箱地址',C('EmailError'),'EmailError');
@@ -31,7 +31,7 @@ class StudentModel extends Model
                         break;
                     case 'password':
                         if($registerInfo[$key]==''){
-                            ajax_return('请输入密码',C('PasswdError'),'PasswdError');
+                            ajax_return('请输入密码',C('PasswdEmpty'),'PasswdEmpty');
                         }
                         $passwd_length = strlen($registerInfo[$key]);
                         if($passwd_length<6||$passwd_length>16){  
@@ -40,7 +40,7 @@ class StudentModel extends Model
                         break;
                     case 'repassword':
                         if($registerInfo[$key]==''){
-                            ajax_return('请再次输入密码',C('RePasswdError'),'RePasswdError');
+                            ajax_return('请再次输入密码',C('RePasswdEmpty'),'RePasswdEmpty');
                         }
                         if($registerInfo['password']!=$registerInfo['repassword']){  
                              ajax_return('两次输入密码不一样',C('RePasswdError'),'RePasswdError');

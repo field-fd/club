@@ -2,30 +2,47 @@
 namespace Club\Controller;
 use Think\Controller;
 class MemberController extends CommonController{
+  /**
+    * 待审核成员
+    * @author fangdong
+    */
 	public function index(){
     	$where['status'] = 0;  //0待审核，1通过，2驳回，3删除到回收站
+    	$where['club_id'] = session('club_id');
     	$list = M('member')->where($where)->order('id DESC')->select();
-	    $this->list = $list;
-	    $this->display();
+	    if($list){
+           ajax_return($list,C('Ok'),'Ok');
+      }else{
+           ajax_return('未查询到数据',C('NoData'),'NoData');
+      }
     }
    /**
-    * 待审核成员列表展示
+    * 成员的详细资料展示
     * @author fangdong
     */
    public function showMember(){
-      $id = I('id');
-      $data=M('member')->where(array('id'=>$id))->find();
-      $this->assign('member',$data);
-      $this->display();
+      $memberID = I('id');
+      if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $memberInfo=M('member')->where(array('id'=>$memberID))->find();
+      if($memberInfo){
+           ajax_return($memberInfo,C('Ok'),'Ok');
+      }else{
+           ajax_return('未查询到数据',C('NoData'),'NoData');
+      }
    }
    /**
     * 通过成员申请请求
     * @author fangdong
     */
    public function pass(){
-        $member_id = I('member_id');
+        $memberID = I('id');
+        if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
         $status = 1;  //通过
-        $alter=D('member')->AlterStatus($member_id,$status);
+        $alter=D('member')->AlterStatus($memberID,$status);
 	      if($alter){
 	   	      ajax_return('通过成功',C('Ok'),'Ok');
         }else{
@@ -37,10 +54,13 @@ class MemberController extends CommonController{
     * @author fangdong
     */
    public function reject(){
-        $member_id = I('member_id');
+        $memberID = I('id');
+        if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
         $status = 2;   //驳回
-        $alter=D('member')->AlterStatus($member_id,$status);
-        if($alter){
+        $aAlter=D('member')->AlterStatus($memberID,$status);
+        if($rAlter){
             ajax_return('驳回成功',C('Ok'),'Ok');
         }else{
             ajax_return('驳回失败',C('Error'),'Error');
@@ -51,10 +71,14 @@ class MemberController extends CommonController{
     * @author fangdong
     */
    public function recycle(){
-    	$where['status'] = 3
+    	$where['status'] = 3 ;
+    	$where['club_id'] = session('club_id');
     	$list = M('member')->where($where)->order('id DESC')->select();
-	    $this->list = $list;
-	    $this->display();
+	    if($list){
+           ajax_return($list,C('Ok'),'Ok');
+      }else{
+           ajax_return('未查询到数据',C('NoData'),'NoData');
+      }
     }
 
    /**
@@ -62,9 +86,12 @@ class MemberController extends CommonController{
     * @author fangdong
     */
    public function delete(){
-   	    $member_id = I('member_id');
+   	    $memberID = I('id');
+        if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
         $status = 3;  //删除
-        $alter=D('member')->AlterStatus($member_id,$status);
+        $alter=D('member')->AlterStatus($memberID,$status);
         if($alter){
             ajax_return('删除成功',C('Ok'),'Ok');
         }else{
@@ -76,9 +103,12 @@ class MemberController extends CommonController{
     * @author fangdong
     */
    public function recover(){
-        $member_id = I('member_id');
+        $memberID = I('id');
+        if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
         $status = 0;    //待审核
-        $alter=D('member')->AlterStatus($member_id,$status);
+        $alter=D('member')->AlterStatus($memberID,$status);
         if($alter){
             ajax_return('还原成功',C('Ok'),'Ok');
         }else{
@@ -91,22 +121,13 @@ class MemberController extends CommonController{
     * @author fangdong
     */
    public function passedMember(){
-   	  $where['status'] = 1;  //通过
+   	    $where['status'] = 1;  //通过
+   	    $where['club_id'] = session('club_id');
     	$list = M('member')->where($where)->select();
-	    $this->list = $list;
-      $club_id = session('club_id');
-      $department = M('department')->where(array('id'=>$club_id))->select();
-      $this->department = $department;
-	    $this->display();
-   }
-   /**
-    * 已通过成员个人信息展示
-    * @author fangdong
-    */
-   public function showPassedMember(){
-      $id = I('id');
-      $member=M('member')->where(array('id'=>$id))->find();
-      $this->assign('member',$member);
-      $this->display();
+	    if($list){
+           ajax_return($list,C('Ok'),'Ok');
+      }else{
+           ajax_return('未查询到数据',C('NoData'),'NoData');
+      }
    }
 }

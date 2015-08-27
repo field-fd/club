@@ -1,115 +1,131 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class ClubController extends CommonController {
+class ClubController extends CommonController{
 	/**
+   * 待审核社团
    * @author fangdong 
    */
-    public function index(){
-    	$where['status'] = 0;  //0待审核，1通过，2驳回，3删除到回收站
-    	$list = M('club')->where($where)->order('id DESC')->select();
-	    $this->list = $list;
-	    $this->display();
+   public function index(){
+      $where['status'] = 0;  //0待审核，1通过，2驳回，3删除到回收站
+      $list = M('club')->where($where)->order('id DESC')->select();
+      if($list){
+            ajax_return($list,C('Ok'),'Ok');
+        }else{
+            ajax_return('未查询到数据',C('NoData'),'NoData');
+        }
     }
   /**
-   * 待审核社团展示
+   * 社团的申请资料展示
    * @author fangdong 
    */
-   public function showClub(){
-      $id = I('id');
-      $data=M('club')->where(array('id'=>$id))->find();
-      $this->assign('club',$data);
-      $this->display();
+  public function showClub(){
+      $clubID = I('id');
+      if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $clubInfo=M('club')->where(array('id'=>$clubID))->find();
+      if($clubInfo){
+            ajax_return($clubInfo,C('Ok'),'Ok');
+        }else{
+            ajax_return('未查询到数据',C('NoData'),'NoData');
+        }
    }
-　/**
-   * 通过　
-   * @author fangdong 
+  /**
+   * 通过
+   * @author fangdong
    */
    public function pass(){
-        $club_id = I('club_id');
-        $data['status'] = 1;
-        $alter=M('club')->where(array('id'=>$club_id))->save($data);
-	      if($alter){
-	   	      ajax_return('成功',C('Ok'),'Ok');
-	      }else{
-            ajax_return('失败',C('Error'),'Error');
-	     }
+        $clubID = I('id');
+        if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+        $data['status'] = 1;  //通过
+        $alter=M('club')->where(array('id'=>$clubID))->save($data);
+        if($alter){
+            ajax_return('通过成功',C('Ok'),'Ok');
+        }else{
+            ajax_return('通过失败',C('Error'),'Error');
+       }
    }
-　/**
-   * 驳回　
-   * @author fangdong 
-   */
+/**
+ * 驳回
+ * @author fangdong
+ */
    public function reject(){
-        $club_id = I('club_id');
-        $data['status'] = 2;
-        $alter=M('club')->where(array('id'=>$club_id))->save($data);
-	      if($alter){
-	   	      ajax_return('驳回成功',C('Ok'),'Ok');
-	      }else{
-	   	      ajax_return('失败',C('Error'),'Error');
-	    }
+        $clubID = I('id');
+        if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+        $data['status'] = 2; //驳回
+        $alter=M('club')->where(array('id'=>$clubID))->save($data);
+        if($alter){
+            ajax_return('驳回成功',C('Ok'),'Ok');
+        }else{
+            ajax_return('驳回失败',C('Error'),'Error');
+      }
    }
-　/**
+  /**
    * 回收站
-   * @author fangdong 
+   * @author fangdong
    */
    public function recycle(){
-    	$where['status'] = 3; 
-    	$list = M('club')->where($where)->order('id DESC')->select();
-	    $this->list = $list;
-	    $this->display();
+      $where['status'] = 3;  //删除
+      $list = M('club')->where($where)->order('id DESC')->select();
+      if($list){
+            ajax_return($list,C('Ok'),'Ok');
+        }else{
+            ajax_return('未查询到数据',C('NoData'),'NoData');
+        }
     }
-
-　/**
-   * 删除到回收站　
-   * @author fangdong 
+  /**
+   * 删除到回收站
+   * @author fangdong
    */
    public function delete(){
-   	    $club_id = I('club_id');
-        $data['status'] = 3;
-        $alter=M('club')->where(array('id'=>$club_id))->save($data);
-	      if($alter){
-	   	      ajax_return('删除成功',C('Ok'),'Ok');
-	      }else{
-	   	      ajax_return('失败',C('Error'),'Error');
-	    }
+        $clubID = I('id');
+        if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+        $data['status'] = 3; //删除
+        $alter=M('club')->where(array('id'=>$clubID))->save($data);
+        if($alter){
+            ajax_return('删除成功',C('Ok'),'Ok');
+        }else{
+            ajax_return('删除失败',C('Error'),'Error');
+      }
    }
-
-　/**
-   * 回收站还原　
-   * @author fangdong 
+  /**
+   * 还原
+   * @author fangdong
    */
-   public function recover(){
-        $club_id = I('club_id');
-        $data['status'] = 0;
-        $alter=M('club')->where(array('id'=>$club_id))->save($data);
-	      if($alter){
-	   	       ajax_return('还原成功',C('Ok'),'Ok');
-	      }else{
-	   	       ajax_return('失败',C('Error'),'Error');
-	    }
-   }
 
-　/**
-   * 已通过社团展示　
-   * @author fangdong 
+   public function recover(){
+        $clubID = I('id');
+        if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+        $data['status'] = 0;  //待审核
+        $alter=M('club')->where(array('id'=>$clubID))->save($data);
+        if($alter){
+             ajax_return('还原成功',C('Ok'),'Ok');
+        }else{
+             ajax_return('失败',C('Error'),'Error');
+      }
+   }
+  /**
+   * 已通过社团
+   * @author fangdong
    */
    public function passedClub(){
-   	    $where['status'] = 1;  //0待审核，1通过，2驳回，3删除到回收站
-    	$list = M('club')->where($where)->order('id DESC')->select();
-	    $this->list = $list;
-	    $this->display();
+        $where['status'] = 1;  //通过
+        $allClub = M('club')->where($where)->order('id DESC')->select();
+        if($allClub){
+            ajax_return($allClub,C('Ok'),'Ok');
+        }else{
+            ajax_return('未查询到数据',C('NoData'),'NoData');
+        }
    }
 
-　/**
-   * 已通过社团展示　
-   * @author fangdong 
-   */
-   public function showPassedClub(){
-      $id = I('id');
-      $data=M('club')->where(array('id'=>$id))->find();
-      $this->assign('club',$data);
-      $this->display();
-   }
 }
 

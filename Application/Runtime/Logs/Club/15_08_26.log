@@ -1,0 +1,98 @@
+[ 2015-08-26T11:23:07+08:00 ] 127.0.0.1 /club/index.php/Club/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-08-26T11:23:16+08:00 ] 127.0.0.1 /club/index.php/Club/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-08-26T11:23:24+08:00 ] 127.0.0.1 /club/index.php/Club/LoMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载控制器:LoMember
+
+[ 2015-08-26T11:23:27+08:00 ] 127.0.0.1 /club/index.php/Club/Member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-08-26T11:23:47+08:00 ] 127.0.0.1 /club/index.php/Club/Member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-08-26T11:27:55+08:00 ] 127.0.0.1 /club/index.php/Club/passedMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载控制器:PassedMember
+
+[ 2015-08-26T11:28:11+08:00 ] 127.0.0.1 /club/index.php/Club/Member/passedMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-08-26T11:28:27+08:00 ] 127.0.0.1 /club/index.php/Club/Member/showPassedMember/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-08-26T11:28:36+08:00 ] 127.0.0.1 /club/index.php/Club/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-08-26T11:29:54+08:00 ] 127.0.0.1 /club/index.php/Club/Member/passedMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-08-26T11:32:58+08:00 ] 127.0.0.1 /club/index.php/Club/Member/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-08-26T11:40:46+08:00 ] 127.0.0.1 /club/index.php/Club/Member/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-08-26T14:17:55+08:00 ] 127.0.0.1 /club/index.php/Club/Department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-08-26T14:31:08+08:00 ] 127.0.0.1 /club/index.php/Club/Department
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-08-26T14:38:39+08:00 ] 127.0.0.1 /club/index.php/Club/Department/getDepart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+ERR: 非法操作:getDepart
+
+[ 2015-08-26T14:39:27+08:00 ] 127.0.0.1 /club/index.php/Club/Department/departmentApi/type/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-08-26T14:39:39+08:00 ] 127.0.0.1 /club/index.php/Club/Department/departmentApi/type/get/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-08-26T14:39:44+08:00 ] 127.0.0.1 /club/index.php/Club/Department/departmentApi/type/get/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-08-26T14:39:47+08:00 ] 127.0.0.1 /club/index.php/Club/Department/departmentApi/type/get/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+

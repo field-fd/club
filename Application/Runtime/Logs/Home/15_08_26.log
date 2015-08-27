@@ -1,0 +1,12 @@
+[ 2015-08-26T11:22:59+08:00 ] 127.0.0.1 /club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-08-26T14:17:55+08:00 ] 127.0.0.1 /club/Public/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载控制器:Public
+

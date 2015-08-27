@@ -63,13 +63,13 @@ class ClubModel extends Model
 
                     case 'phone':
                         if($leaderInfo[$key]==''){
-                            ajax_return('请输入手机号码',C('PhoneError'),'PhoneError');
+                            ajax_return('请输入手机号码',C('PhoneEmpty'),'PhoneEmpty');
                         }
                         break;
 
                     case 'qq':
                         if($leaderInfo[$key]==''){
-                            ajax_return('请输入QQ号码',C('QQError'),'QQError');
+                            ajax_return('请输入QQ号码',C('QQEmpty'),'QQEmpty');
                         }
                         break;
 
@@ -105,11 +105,14 @@ class ClubModel extends Model
 
                     case 'type':
                         if($clubInfo[$key]==''){
-                            ajax_return('选择社团类型',C('TypeError'),'TypeError');
+                            ajax_return('请选择社团类型',C('TypeError'),'TypeError');
                         }
-                        if((int)$clubInfo[$key]==1){
-                            ajax_return('请选择所属院系',C('TypeError'),'TypeError');
-                        }
+                        break;
+
+                    case 'relation':
+                        if($clubInfo[$key]==''){
+                            ajax_return('请输入所属院系',C('RelationError'),'RelationError');
+                        }                     
                         break;
 
                     case 'introduce':
@@ -146,7 +149,7 @@ class ClubModel extends Model
             'name' => $ClubData['name'],
             'type' => $ClubData['type'],
             'introduce' => $ClubData['introduce'],
-            'relation' => $ClubData['introduce'],
+            'relation' => $ClubData['relation'],
             'teacher' => $ClubData['leader'],
             'qq' => $ClubData['qq'],
             'phone' => $ClubData['phone'],
@@ -175,7 +178,7 @@ class ClubModel extends Model
                         break;
                     case 'password':
                         if($loginInfo[$key]==''){
-                            ajax_return('请输入密码',C('PasswdError'),'PasswdError');
+                            ajax_return('请输入密码',C('PasswdEmpty'),'PasswdEmpty');
                         }                   
                         break;
                     default:

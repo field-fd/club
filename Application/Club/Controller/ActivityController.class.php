@@ -4,20 +4,18 @@ use Think\Controller;
 class ActivityController extends CommonController {
   /**
     * 活动操作接口
+    * @author jason
     */
-    public function departmentApi(){
+    public function activityApi(){
         $type = I('type');
         if(!$type){
             ajax_return('缺少请求参数类型',C('TypeEmpty'),'TypeEmpty');
         }
         switch ($type) {
-            case 'get': //查找
-                $this->getActivity();
+            case 'add': //创建
+                $this->addActivity();
                 break;
-            case 'post': //创建
-                $this->postActivity();
-                break;
-            case 'put': //更新
+            case 'put': //修改
                 $this->putActivity();
                 break;
             case 'delete': //删除
@@ -27,10 +25,11 @@ class ActivityController extends CommonController {
                 break;
         }
     }
-    /**
+    /*
      * 查找活动
+     * @author fangdong
      * @param int $id 
-     */
+     
     private function getActivity(){
         $ActivityID = I('id');
         if(!$ActivityID){
@@ -42,33 +41,15 @@ class ActivityController extends CommonController {
         }else{
             ajax_return('未查询到数据',C('NoData'),'NoData');
         }
-    }
+    } */
     /**
      * 创建活动
+     * @author fangdong
      * @param string ActivityTheme  活动名称
      */
     private function addActivity(){
-        $club_id  = session('club_info.id');
-        $club_name= session('club_info.name');
-        $theme    = I('ActivityTheme');
-        if(!$theme){
-            ajax_return('活动名称不可为空',C('ActivityEmpty'),'ActivityEmpty');
-        }
-        $content  = I('content');
-        if(!$content){
-            ajax_return('活动名称不可为空',C('ActivityEmpty'),'ActivityEmpty');
-        }
-        $image    = I('images');
-        $time   = time();
-        $data = array(
-          'club_id' => $club_id,
-          'club_name' => $club_name,
-          'theme'   => $theme,
-          'content' => $content,
-          'image'   => $time,
-          'status'  => 0,
-          );
-        $rCreateActivity = M('Activity')->data($data)->add();
+        $ActivityInfo = I();
+        $rCreateActivity = D('Activity')->publish_activity($ActivityInfo);
         if($rCreateActivity){
             ajax_return('活动已添加，等待审核',C('Ok'),'Ok');
         }else{
@@ -77,6 +58,7 @@ class ActivityController extends CommonController {
     }
     /**
      * 更新活动
+     * @author fangdong
      * @param int  $ActivityID  活动主键id
      */
     private function putActivity(){
@@ -84,21 +66,32 @@ class ActivityController extends CommonController {
         if(!$ActivityID){
             ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
         }
-        $updateInfo = D('Activity')->putActivity($ActivityID);
+        $theme   = I('theme');
+        if($theme==""){
+             ajax_return('请输入活动主题',C('ThemeEmpty'),'ThemeEmpty');
+        }
+        $content  = I('content');
+        if($content==""){
+             ajax_return('请输入活动内容',C('ActivityEmpty'),'ActivityEmpty');
+        }
+        $data['theme'] = $theme;
+        $data['content'] = $content;
+        $updateInfo = D('Activity')->where(array('id')=>$ActivityID)->save($data);
         if($departInfo){
-            ajax_return('资料已更新',C('Ok'),'Ok');
+            ajax_return('活动已更新',C('Ok'),'Ok');
         }else{
-            ajax_return('资料更新失败！',C('Error'),'Error');
+            ajax_return('活动更新失败！',C('Error'),'Error');
         }
     }
     /**
      * 删除活动
+     * @author fangdong
      * @param mixed $checkbox  被选中的ID
      */
     private function deleteActivity(){
         $checkbox = I('checkbox');
         if($checkbox == ''){
-            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+            ajax_return('请选择要删除的活动',C('NoSearchCondition'),'NoSearchCondition');
         }
         if(is_array($checkbox)){
             $where = 'id in ('.implode(',', $checkbox).')';
@@ -107,9 +100,9 @@ class ActivityController extends CommonController {
         }
         $list = M('Activity')->where($where)->delete();
         if($list!==false){
-            ajax_return("已删除{$list}个部门",C('Ok'),'Ok');
+            ajax_return("已删除{$list}个活动",C('Ok'),'Ok');
         }else{
-            ajax_return('未能成功删除部门',C('Error'),'Error');
+            ajax_return('未能成功删除活动',C('Error'),'Error');
         }
     }
 }

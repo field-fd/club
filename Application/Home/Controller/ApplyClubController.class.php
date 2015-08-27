@@ -7,12 +7,13 @@ class ApplyClubController extends CommonController {
       * 社团展示
       * @author fangdong
       */   
-     public function index(){  
-            $list = M('club')->select();
+     public function index(){ 
+            $where['status'] = 1; //已通过社团
+            $list = M('club')->where($where)->select();
             if($list){
                 ajax_return($list,C('Ok'),'Ok');
             }else{
-                ajax_return('获取失败！',C('Error'),'Error');
+                ajax_return('未查询到数据',C('NoData'),'NoData');
             }
       }
 
@@ -21,23 +22,28 @@ class ApplyClubController extends CommonController {
       * @author fangdong
       */
     public function showClub(){
-             $id = I('id');
-             $data=M('club')->where(array('id'=>$id))->find();
+             $clubID = I('id');
+             if(!$clubID){
+                  ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+             }
+             $data=M('club')->where(array('id'=>$clubID))->find();
              if($data){
                  ajax_return($data,C('Ok'),'Ok');
              }else{
-                 ajax_return('获取失败！',C('Error'),'Error');
+                 ajax_return('未查询到数据',C('NoData'),'NoData');
               }
         } 
-
         /**
-         * 申请加入填写简历,ajax返回社团id和部门
+         * 填写简历,ajax返回社团id和部门
          * @author fangdong
          * @param $club_id  $department
          */
-    public function join(){
+    public function showDepart(){
              $club_id       = I('club_id');
-             $department    = M('department')->where(array('club_id'=>$club_id))->find();
+             if(!$club_id){
+                  ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+             }
+             $department    = M('department')->where(array('club_id'=>$club_id))->select();
              $data = array(
                  'club_id'    => $club_id ,
                  'department' => $department
@@ -45,7 +51,7 @@ class ApplyClubController extends CommonController {
             if($department){
                  ajax_return($data,C('Ok'),'Ok');
              }else{
-                 ajax_return('获取失败！',C('Error'),'Error');
+                 ajax_return('未查询到数据',C('NoData'),'NoData');
              }
         }
 

@@ -13,7 +13,7 @@ class MemberModel extends Model{
             switch ($key) {
                 case 'college':
                      if($postData[$key]==''){
-                         ajax_return('请输入学院',C('ConllegeError'),'ConllegeError');
+                         ajax_return('请输入学院',C('CollegeError'),'CollegeError');
                      }   
                     break;
                 case 'class':
@@ -23,7 +23,7 @@ class MemberModel extends Model{
                     break;
                 case 'telephone':
                      if($postData[$key]==''){
-                         ajax_return('请输入手机号',C('PhoneError'),'PhoneError');
+                         ajax_return('请输入手机号',C('PhoneEmpty'),'PhoneEmpty');
                      }
                      if(!preg_match("/1[34578]{1}\d{9}$/",$postData[$key])){  
                          ajax_return('请输入正确的手机号码',C('PhoneError'),'PhoneError');
@@ -39,7 +39,7 @@ class MemberModel extends Model{
                     break;
                 case 'qq':
                      if($postData[$key]==''){
-                         ajax_return('请输入QQ',C('QQError'),'QQError');
+                         ajax_return('请输入QQ',C('QQEmpty'),'QQEmpty');
                      }
                      if(!preg_match('/^[1-9][0-9]{4,10}$/', $postData[$key])){  
                         ajax_return('请输入正确的qq号码',C('QQError'),'QQError');
@@ -71,7 +71,7 @@ class MemberModel extends Model{
                 'sex' => $postData['sex'],
                 'telephone' => $postData['telephone'],
                 'qq' => $postData['qq'],
-                'department_name' => $postData['department_name'],
+                'department_name' => $postData['departmentName'],
                 'hobby' => $postData['hobby'],
                 'reason'=> $postData['reason'],
                 'club_id' => $postData['club_id'],

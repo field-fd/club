@@ -1,0 +1,564 @@
+[ 2015-08-27T14:59:55+08:00 ] 127.0.0.1 /club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-08-27T15:00:05+08:00 ] 127.0.0.1 /club/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-08-27T15:00:10+08:00 ] 127.0.0.1 /club/Home/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-08-27T15:01:12+08:00 ] 127.0.0.1 /club/Home/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+
+[ 2015-08-27T15:01:13+08:00 ] 127.0.0.1 /club/Home/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+
+[ 2015-08-27T15:01:14+08:00 ] 127.0.0.1 /club/Home/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-08-27T15:02:12+08:00 ] 127.0.0.1 /club/Home/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+
+[ 2015-08-27T15:03:47+08:00 ] 127.0.0.1 /club/Home/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-08-27T15:03:54+08:00 ] 127.0.0.1 /club/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2015-08-27T15:04:03+08:00 ] 127.0.0.1 /club/index.php/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+
+[ 2015-08-27T15:04:08+08:00 ] 127.0.0.1 /club/index.php/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-08-27T15:04:14+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T15:05:11+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+ERR: 模板不存在:./Application/Home/View/MyClub/index.html
+
+[ 2015-08-27T15:05:47+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+
+[ 2015-08-27T15:06:22+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T15:07:37+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-08-27T15:07:58+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-08-27T15:08:21+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+
+[ 2015-08-27T15:09:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+
+[ 2015-08-27T15:09:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2015-08-27T15:09:43+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-08-27T15:10:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:14:49+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+
+[ 2015-08-27T16:15:29+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:21:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'club_member'
+
+[ 2015-08-27T16:21:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'club_member'
+
+[ 2015-08-27T16:22:08+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'club_member'
+
+[ 2015-08-27T16:22:09+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'club_member'
+
+[ 2015-08-27T16:32:37+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+
+[ 2015-08-27T16:32:56+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+
+[ 2015-08-27T16:32:57+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+
+[ 2015-08-27T16:33:57+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:34:43+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:34:44+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:35:09+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== (SELECT club_id FROM club_member WHERE stu_id = 1)' at line 1
+
+[ 2015-08-27T16:35:10+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== (SELECT club_id FROM club_member WHERE stu_id = 1)' at line 1
+
+[ 2015-08-27T16:35:24+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:35:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu_id' in 'where clause'
+
+[ 2015-08-27T16:37:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+
+[ 2015-08-27T16:38:08+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 1)' at line 1
+
+[ 2015-08-27T16:38:17+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-08-27T16:41:24+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+
+[ 2015-08-27T16:41:27+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+
+[ 2015-08-27T16:41:28+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+
+[ 2015-08-27T16:41:57+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+
+[ 2015-08-27T16:42:39+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+
+[ 2015-08-27T16:44:48+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+
+[ 2015-08-27T16:44:49+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+
+[ 2015-08-27T16:44:50+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+
+[ 2015-08-27T16:44:51+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+
+[ 2015-08-27T16:45:20+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+
+[ 2015-08-27T16:45:38+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-08-27T16:45:38+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-08-27T16:45:39+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+
+[ 2015-08-27T16:45:39+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-08-27T16:45:40+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+
+[ 2015-08-27T16:45:40+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+
+[ 2015-08-27T16:50:41+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}  WHERE `stu_id` = '1'' at line 1
+
+[ 2015-08-27T16:52:02+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1
+
+[ 2015-08-27T16:53:15+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1
+
+[ 2015-08-27T16:53:15+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1
+
+[ 2015-08-27T16:53:16+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1
+
+[ 2015-08-27T16:57:21+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-08-27T17:02:12+08:00 ] 127.0.0.1 /club/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+
+[ 2015-08-27T17:02:17+08:00 ] 127.0.0.1 /club/index.php/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+
+[ 2015-08-27T17:02:22+08:00 ] 127.0.0.1 /club/index.php/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+
+[ 2015-08-27T17:02:38+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+
+[ 2015-08-27T17:03:34+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} )' at line 1
+
+[ 2015-08-27T17:03:46+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+
+[ 2015-08-27T17:04:16+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+
+[ 2015-08-27T17:04:17+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+
+[ 2015-08-27T17:04:54+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-08-27T17:05:38+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'club_app.club_' doesn't exist
+
+[ 2015-08-27T17:06:21+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'club_app.club_' doesn't exist
+
+[ 2015-08-27T17:06:22+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'club_app.club_' doesn't exist
+
+[ 2015-08-27T17:09:33+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+
+[ 2015-08-27T17:10:21+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+
+[ 2015-08-27T17:10:22+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-08-27T17:11:00+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+
+[ 2015-08-27T17:11:12+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-08-27T17:12:24+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+
+[ 2015-08-27T17:12:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2015-08-27T17:12:55+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+
+[ 2015-08-27T17:13:24+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-08-27T17:13:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-08-27T17:13:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+
+[ 2015-08-27T17:13:25+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+
+[ 2015-08-27T17:13:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-08-27T17:13:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+
+[ 2015-08-27T17:13:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002884s ]
+
+[ 2015-08-27T17:13:26+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+
+[ 2015-08-27T17:13:48+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-08-27T17:14:04+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-08-27T17:14:29+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+
+[ 2015-08-27T17:14:30+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+
+[ 2015-08-27T17:14:30+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+
+[ 2015-08-27T17:14:31+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+
+[ 2015-08-27T17:14:35+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-08-27T17:15:19+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+
+[ 2015-08-27T17:15:20+08:00 ] 127.0.0.1 /club/index.php/MyClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-08-27T17:58:25+08:00 ] 127.0.0.1 /club/index.php/MyClub/member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+
+[ 2015-08-27T17:58:32+08:00 ] 127.0.0.1 /club/index.php/MyClub/member/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+
+[ 2015-08-27T18:59:43+08:00 ] 127.0.0.1 /club/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010475s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-08-27T19:00:21+08:00 ] 127.0.0.1 /club/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-08-27T19:00:27+08:00 ] 127.0.0.1 /club/index.php/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-08-27T19:00:56+08:00 ] 127.0.0.1 /club/index.php/Home/MyClub/member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-08-27T19:01:07+08:00 ] 127.0.0.1 /club/index.php/Home/MyClub/member/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+

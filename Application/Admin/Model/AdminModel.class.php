@@ -12,7 +12,7 @@ class AdminModel extends Model
         
             foreach ($loginInfo as $key => $value) {
                 switch ($key) {
-                    case 'email':
+                    case 'username':
                         if($loginInfo[$key]==''){
                             ajax_return('请输入用户名',C('UserEmpty'),'UserEmpty');
                         }

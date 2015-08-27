@@ -22,7 +22,7 @@ class LoginController extends Controller{
          if ($rUser){
              session('stu_id',$rUser['id']);
              session('username',$rUser['name']);
-             ajax_return('登陆成功',C('Ok'),'Ok');
+             ajax_return('登陆成功',C('LoginSuccess'),'LoginSuccess');
          }else{
             ajax_return('登录失败',C('Error'),'Error');
       }  

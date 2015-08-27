@@ -12,4 +12,3 @@ class CommonController extends Controller{
 	}
 	
 }
-?>

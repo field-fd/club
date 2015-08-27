@@ -2,6 +2,10 @@
 namespace Admin\Controller;
 use Think\Controller;
 class LoginController extends Controller{
+   /**
+     * 登陆页面展示
+     * @author fangdong
+     */
     public function index(){
       $this->display();
     }
@@ -24,9 +28,9 @@ class LoginController extends Controller{
          $loginInfo = I();   
          $rUser=D('admin')->Login($loginInfo);
          if ($rUser){
-             ajax_return('登陆成功',C('Ok'),'Ok');
+             ajax_return('登陆成功',C('LoginSuccess'),'LoginSuccess');
          }else{
-            ajax_return('登录失败',C('Error'),'Error');
+             ajax_return('登录失败',C('Error'),'Error');
       }  
    }
 
