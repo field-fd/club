@@ -44,6 +44,15 @@ body {
 	border:1px solid #A29F9F;
 	text-indent:45px;
 }
+.sign input[type="password"]{
+	width:290px;
+	height:40px;
+	margin-top:20px;
+	border-radius:6px;
+	outline:none;
+	border:1px solid #A29F9F;
+	text-indent:45px;
+}
 .sign input[type="text"]:focus{
 	border-color:#A4DBFF;
 	/*box-shadow:5px 0px 37px #A4DBFF,-5px 0px 5px #A4DBFF,0 5px 5px#A4DBFF,0 -5px 5px #A4DBFF;*/

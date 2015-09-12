@@ -1423,3 +1423,257 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
 
+[ 2015-09-12T14:17:21+08:00 ] 127.0.0.1 /club/index.php/Admin/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载控制器:Register
+
+[ 2015-09-12T14:17:52+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-09-12T14:18:16+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-09-12T14:18:27+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-09-12T14:19:39+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-09-12T14:20:26+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-09-12T14:20:53+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\WWW\club\Application\Admin\Controller\LoginController.class.php on line 28 and defined D:\WWW\club\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\WWW\club\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\WWW\club\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\WWW\club\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `club_admin` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `club_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-09-12T14:20:53+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-09-12T14:20:57+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/passedClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-09-12T14:20:58+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-09-12T14:20:59+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-09-12T14:21:00+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/showClub/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-09-12T14:21:06+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/showClub/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-09-12T14:21:10+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/delete?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `club_club` [ RunTime:0.0035s ]
+SQL: UPDATE `club_club` SET `status`='3' WHERE `id` = 8 [ RunTime:0.0005s ]
+
+[ 2015-09-12T14:21:10+08:00 ] 127.0.0.1 /club/index.php/Admin/Club
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-09-12T14:21:12+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/passedClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-09-12T14:21:13+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-09-12T14:21:14+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/showDeleteClub/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-09-12T14:21:17+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/recover?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `club_club` [ RunTime:0.0032s ]
+SQL: UPDATE `club_club` SET `status`='0' WHERE `id` = 8 [ RunTime:0.0004s ]
+
+[ 2015-09-12T14:21:17+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-09-12T14:21:18+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-09-12T14:21:20+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/passedClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-09-12T14:21:22+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/showPassedClub/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-09-12T14:21:26+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-09-12T14:21:28+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/showDeleteClub/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-09-12T14:21:31+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-09-12T14:21:32+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/showActivity/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-09-12T14:21:35+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/passedActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-09-12T14:21:36+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-09-12T14:54:16+08:00 ] 127.0.0.1 /club/index.php/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-09-12T14:54:25+08:00 ] 127.0.0.1 /club/index.php/Admin/Login/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\WWW\club\Application\Admin\Controller\LoginController.class.php on line 28 and defined D:\WWW\club\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\WWW\club\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\WWW\club\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\WWW\club\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `club_admin` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `club_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-09-12T14:54:25+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-09-12T14:54:28+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-09-12T14:54:29+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/showActivity/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-09-12T14:54:31+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/showActivity/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-09-12T14:54:33+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/passedActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-09-12T14:54:34+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/showPassedActivity/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-09-12T14:54:36+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-09-12T14:54:37+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/showDeleteActivity/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-09-12T14:55:22+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-09-12T14:55:23+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-09-12T14:55:27+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/passedActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-09-12T14:55:30+08:00 ] 127.0.0.1 /club/index.php/Admin/Activity/showPassedActivity/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-09-12T14:55:34+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-09-12T14:55:35+08:00 ] 127.0.0.1 /club/index.php/Admin/Club/showClub/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+

@@ -85,11 +85,6 @@
               <li>爱好：<?php echo ($member["hobby"]); ?></li>
               <li>加入理由：<?php echo ($member["reason"]); ?></li>           
           </ul>
-          <div class="content-bottom">
-                <span onclick="memberPass(<?php echo ($member["id"]); ?>)">通过</span>
-                <span onclick="memberReject(<?php echo ($member["id"]); ?>)">驳回</span>
-                <span onclick="memberDelete(<?php echo ($member["id"]); ?>)">删除</span>
-          </div>
     </div>
     <div class="bottom_cen">
         <a>友情链接：</a>

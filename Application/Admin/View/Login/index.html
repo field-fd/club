@@ -17,7 +17,7 @@
  		</div>
  		<div class="sign">
  			<input type="text" class="username" name="username" placeholder="请填写用户名">
- 			<input type="text" class="password" name="password" placeholder="请填写密码">
+ 			<input type="password" class="password" name="password" placeholder="请填写密码">
  			<input type="text" class="check" name="verify" placeholder="请填写验证码">
  			<a href="javascript:void(0)" class="reloadverify" onclick="changeVerify()">换一张?</a>
  			<img src="http://127.0.0.1/club/index.php/Club/Register/verify" class="verify" onclick="changeVerify()">

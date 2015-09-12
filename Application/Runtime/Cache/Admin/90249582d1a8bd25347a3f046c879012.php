@@ -57,7 +57,7 @@
              <p>时间：<?php echo (date("Y-m-d",$activity["time"])); ?></p>
           </div>
           <ul class="content-wp">
-              <li><img src="/club/Public/Uploads/<?php echo ($activity["image"]); ?>"><?php echo ($activity["content"]); ?></li>           
+              <li><img src="/club/Public/Uploads/<?php echo ($activity["image"]); ?>"><?php echo (str_to($activity["content"])); ?></li>           
           </ul>
           
           <div class="content-bottom">

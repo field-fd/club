@@ -149,3 +149,48 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
 ERR: 无法加载控制器:Public
 
+[ 2015-09-12T14:16:57+08:00 ] 127.0.0.1 /club/index.php/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-09-12T14:16:57+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-09-12T14:17:06+08:00 ] 127.0.0.1 /club/index.php/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-09-12T14:17:06+08:00 ] 127.0.0.1 /club/index.php/Home/Register/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-09-12T14:17:52+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-09-12T14:20:26+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-09-12T14:21:22+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-09-12T14:21:28+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b4602fd7323.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002292s ]
+
+[ 2015-09-12T14:54:17+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+

@@ -94,7 +94,7 @@
 <script type="text/javascript"> 
 $(document).ready(function(){
     $.ajax({
-                url:"http://127.0.0.1/club/index.php/Club/Index/getData",
+                url:"{:U('Index/getData')}",
                 type:"GET",
                 dataType: "json",
                 success:function(data) {

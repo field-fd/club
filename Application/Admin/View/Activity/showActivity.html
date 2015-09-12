@@ -57,7 +57,7 @@
              <p>时间：{$activity.time|date="Y-m-d",###}</p>
           </div>
           <ul class="content-wp">
-              <li><img src="__PUBLIC__/Uploads/{$activity.image}">{$activity.content}</li>           
+              <li><img src="__PUBLIC__/Uploads/{$activity.image}">{$activity.content|str_to}</li>           
           </ul>
           
           <div class="content-bottom">
