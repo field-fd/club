@@ -28,10 +28,24 @@ class LoginController extends Controller{
          $loginInfo = I();   
          $rUser=D('admin')->Login($loginInfo);
          if ($rUser){
+             session('username',$rUser['username']);
              ajax_return('登陆成功',C('LoginSuccess'),'LoginSuccess');
          }else{
              ajax_return('登录失败',C('Error'),'Error');
       }  
    }
+/**
+ * 生成验证码
+ *@author fangdong
+ */
+     public function verify(){
+                $Verify = new \Think\Verify();
+                $Verify->codeSet ='0123456789';
+                $Verify->fontSize = 14;
+                $Verify->length   = 4;
+                $Verify->useNoise = false;
+                $Verify->entry();
+
+    }
 
 }

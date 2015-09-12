@@ -21,7 +21,7 @@ class StudentModel extends Model
                         if($registerInfo[$key]==''){
                             ajax_return('请输入邮箱',C('EmailEmpty'),'EmailEmpty');
                         }
-                         if(!preg_match("/^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$/i",$registerInfo[$key])){  
+                         if(!preg_match("/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/",$registerInfo[$key])){  
                              ajax_return('请输入正确的邮箱地址',C('EmailError'),'EmailError');
                         }
                         $condition['email'] = $registerInfo['email'];

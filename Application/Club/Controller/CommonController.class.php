@@ -8,7 +8,7 @@ class CommonController extends Controller{
 	 */
 	public function _initialize(){
 		if (!isset($_SESSION['club_id'])||!isset($_SESSION['club_name']))
-			ajax_return('你还未登录',C('NoLogin'),'NoLogin');
+			$this->redirect('Login/index');
 	}
 	
 }

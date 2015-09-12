@@ -10,14 +10,11 @@ class MemberController extends CommonController{
     	$where['status'] = 0;  //0待审核，1通过，2驳回，3删除到回收站
     	$where['club_id'] = session('club_id');
     	$list = M('member')->where($where)->order('id DESC')->select();
-	    if($list){
-           ajax_return($list,C('Ok'),'Ok');
-      }else{
-           ajax_return('未查询到数据',C('NoData'),'NoData');
-      }
+	    $this->list=$list;
+      $this->display();
     }
    /**
-    * 成员的详细资料展示
+    * 待审核成员的详细资料展示
     * @author fangdong
     */
    public function showMember(){
@@ -26,11 +23,8 @@ class MemberController extends CommonController{
             ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
         }
       $memberInfo=M('member')->where(array('id'=>$memberID))->find();
-      if($memberInfo){
-           ajax_return($memberInfo,C('Ok'),'Ok');
-      }else{
-           ajax_return('未查询到数据',C('NoData'),'NoData');
-      }
+      $this->member=$memberInfo;
+      $this->display();
    }
    /**
     * 通过成员申请请求
@@ -74,11 +68,8 @@ class MemberController extends CommonController{
     	$where['status'] = 3 ;
     	$where['club_id'] = session('club_id');
     	$list = M('member')->where($where)->order('id DESC')->select();
-	    if($list){
-           ajax_return($list,C('Ok'),'Ok');
-      }else{
-           ajax_return('未查询到数据',C('NoData'),'NoData');
-      }
+	    $this->list=$list;
+      $this->display();
     }
 
    /**
@@ -124,10 +115,33 @@ class MemberController extends CommonController{
    	    $where['status'] = 1;  //通过
    	    $where['club_id'] = session('club_id');
     	$list = M('member')->where($where)->select();
-	    if($list){
-           ajax_return($list,C('Ok'),'Ok');
-      }else{
-           ajax_return('未查询到数据',C('NoData'),'NoData');
-      }
+	    $this->list=$list;
+      $this->display();
+   }
+  /**
+    * 已通过成员的详细资料展示
+    * @author fangdong
+    */
+   public function showPassedMember(){
+      $memberID = I('id');
+      if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $memberInfo=M('member')->where(array('id'=>$memberID))->find();
+      $this->member=$memberInfo;
+      $this->display();
+   }
+    /**
+    * 已删除成员的详细资料展示
+    * @author fangdong
+    */
+   public function showDeleteMember(){
+      $memberID = I('id');
+      if(!$memberID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $memberInfo=M('member')->where(array('id'=>$memberID))->find();
+      $this->member=$memberInfo;
+      $this->display();
    }
 }

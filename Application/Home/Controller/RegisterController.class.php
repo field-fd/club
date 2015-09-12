@@ -11,7 +11,7 @@ class RegisterController extends Controller {
         $student      = D('Student');
         $student->checkRegister($registerInfo);
         }
-  
+ 
   /**
   * 注册信息保存
   * @author fangdong
@@ -19,7 +19,7 @@ class RegisterController extends Controller {
     public function handle(){
          $registerInfo = I();                    
          $Student     = D('Student');
-         $rSave    = $Student->SaveData($registerInfo);
+        $rSave    = $Student->SaveData($registerInfo);
         if($rSave){
             ajax_return('注册成功',C('Ok'),'Ok');
         }else{

@@ -1,0 +1,5 @@
+[ 2015-08-30T23:45:00+08:00 ] 127.0.0.1 /club/index.php/Club/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+

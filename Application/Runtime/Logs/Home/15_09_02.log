@@ -1,0 +1,10 @@
+[ 2015-09-02T23:18:06+08:00 ] 127.0.0.1 /club/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037229s ]
+
+[ 2015-09-02T23:18:08+08:00 ] 127.0.0.1 /club/index.php/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+

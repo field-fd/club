@@ -1,21 +1,94 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<title>方东博客登陆</title>
-<meta name="description" content="slick Login">
-<meta name="author" content="Webdesigntuts+">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/club/Public/css/mystyle.css">
 <script type="text/javascript" src="/club/Public/js/jquery-1.6.2.min.js"></script>
+<title>社团登陆</title>
 </head>
 <body>
-<div id="slick-login" style="margin:80px auto;width:350px;">
-<form action="<?php echo U('Login/handle');?>" method="post">
-   社团名    <input type="text" name="name"><br>
-    password<input type="password" name="password" id="password" class="placeholder" placeholder="密码"><br>
-   
-<button  id="submit" >登陆</button>
-</form>
-<br>
-<a href="<?php echo U('Register/index');?>">注册</a>
+<div class="center">
+    <div class="center_head">
+        <img src="/club/Public/images/headlogo.jpg">
+    </div>
+    <div class="center_left">
+        <div class="dangerBox">
+             <div class="danger">正在登录</div>
+        </div>
+        <div class="center_all">
+            <div class="input_cen">
+                    <input id="name"  class="input_num" type="text" placeholder="账号">
+            </div>
+        </div>
+        <div class="center_all">
+            <div class="input_cen">
+                    <input id="password" class="input_num" type="password" placeholder="密码">
+            </div>
+        </div>
+        <div class="center_all">
+            <div class="input_cen">
+                <div class="input_forget">
+                    <a href="#">忘记密码？</a>
+                </div>
+            </div>
+        </div>
+        <div class="center_all">
+            <div class="input_cen">
+                <div id="btn">
+                    <input class="input_sub" type="submit" value="登录">
+                </div>
+            </div>
+        </div>
+        <div class="center_all">
+            <div class="input_cen">
+                    <a class="input_zhuce" href="<?php echo U('Register/index');?>">社团注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="center_right">
+    </div>
+    <div class="center_kehu">
+        <div class="kehu_cen">
+            <div class="kehu_all">
+                <a href="#">
+                <img src="/club/Public/images/search1.jpg">
+                </a>
+                <a href="#">扫描二维码</a>
+            </div>
+            <div class="kehu_all">
+                <a href="#">
+                <img id="ios" src="/club/Public/images/iPhone.jpg"  onmouseover="idemOver()" onmouseout="idemOut()">
+                </a>
+                <a href="#">ios版</a>
+            </div>
+            <div class="kehu_all">
+                <a href="#">
+                <img id="Android" src="/club/Public/images/android.jpg" onmouseover="ademOver()" onmouseout="ademOut()">
+                <a href="#">Android版</a>
+                </a>
+            </div>
+            <div class="kehu_all">
+                <a href="#">
+                <img id="other" src="/club/Public/images/href.jpg" onmouseover="odemOver()" onmouseout="odemOut()">
+                <a href="#">其他产品</a>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+<div class="bottom_cen">
+    <a>友情链接：</a>
+    <a href="http://www.ldu.edu.cn">鲁东大学</a>
+    <a href="http://www.ldustu.com">鲁大学生网</a>
+    <a href="http://sailboat.ldustu.com">团队博客</a>
+    <a href="http://xunji.ldustu.com">寻迹-鲁东大学失物招领</a>
+    <a href="http://www.ldustu.com/a/tongzhi/2014/0619/4590.html">鲁东大学新生群</a>
+    <a href="http://stbk.ldustu.com">社团百科</a>
+    <a href="http://tieba.baidu.com/f?kw=%C2%B3%B6%AB%B4%F3%D1%A7">鲁东大学百度贴吧</a>
+</div>
+<div class="bottom_last">
+        <p>2013 LDSN.鲁大学生网. All rights reservel 鲁ICP备13008791 站长统计</p>
+</div>
+<script type="text/javascript" src="/club/Public/js/myjs.js"></script>
 </body>
 </html>

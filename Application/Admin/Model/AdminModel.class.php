@@ -22,6 +22,11 @@ class AdminModel extends Model
                             ajax_return('请输入密码',C('PasswdEmpty'),'PasswdEmpty');
                         }                   
                         break;
+                    case 'verify':
+                        if(!check_verify($loginInfo[$key])){
+                            ajax_return('验证码错误',C('VerifyError'),'VerifyError');
+                        }
+                        break;
                     default:
                         break;
                 }

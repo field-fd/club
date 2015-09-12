@@ -16,7 +16,11 @@ class ClubModel extends Model
                         if($registerInfo[$key]==''){
                             ajax_return('请输入邮箱',C('EmailError'),'EmailError');
                         }
-                         if(!preg_match("/^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$/i",$clubInfo[$key])){  
+                        $condition['email'] = $registerInfo['email'];
+                            if(M('Club')->where($condition)->find()){
+                                ajax_return('该邮箱已注册',C('EmailError'),'EmailError');
+                            }
+                         if(!preg_match("/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/",$registerInfo[$key])){  
                              ajax_return('请输入正确的邮箱地址',C('EmailError'),'EmailError');
                         }
                         break;
@@ -91,10 +95,6 @@ class ClubModel extends Model
                         if($clubInfo[$key]==''){
                             ajax_return('请输入社团名',C('NoClub'),'NoClub');
                           }
-                            $condition['name'] = $clubInfo['name'];
-                            if(M('Club')->where($condition)->find()){
-                                ajax_return('该社团已注册',C('HavaClub'),'HavaClub');
-                            }
                         break;
 
                     case 'logo':
@@ -156,6 +156,7 @@ class ClubModel extends Model
             'email' => $ClubData['email'],
             'image' => $ClubData['image'],
             'password' => md5($ClubData['password']),
+            'time'  =>time()
             );
         $result = $this->add($data);
         return $result;
@@ -171,9 +172,9 @@ class ClubModel extends Model
         
             foreach ($loginInfo as $key => $value) {
                 switch ($key) {
-                    case 'name':
+                    case 'email':
                         if($loginInfo[$key]==''){
-                            ajax_return('请输入社团名',C('NoClub'),'NoClub');
+                            ajax_return('请输入帐号',C('EmailError'),'EmailError');
                         }
                         break;
                     case 'password':
@@ -196,7 +197,7 @@ class ClubModel extends Model
  function Login($LoginData){
         $this->checkLogin($LoginData);
         $where = array(
-            'name' => $LoginData['name'],           
+            'email' => $LoginData['email'],           
             );
         $ClubInfo = $this->where($where)->find();
         $password = md5($LoginData['password']);

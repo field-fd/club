@@ -7,8 +7,8 @@ class CommonController extends Controller{
 	 *@author fangdong
 	 */
 	public function _initialize(){
-		if (!isset($_SESSION['stu_id'])||!isset($_SESSION['username']))
-			ajax_return('你还未登录',C('NoLogin'),'NoLogin');
+		/*if (!isset($_SESSION['stu_id'])||!isset($_SESSION['username']))
+			ajax_return('你还未登录',C('NoLogin'),'NoLogin');*/
 	}
 	
 }

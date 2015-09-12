@@ -2,10 +2,20 @@
 namespace Club\Controller;
 use Think\Controller;
 class ActivityController extends CommonController {
+   /**
+     * 社团部门展示
+     * @author fangdong
+     */
+ public function index(){
+        $where['club_id'] = session('club_id');
+        $list = M('Activity')->where($where)->select();
+          $this->list=$list;
+        $this->display();
+      }
   /**
     * 活动操作接口
     * @author jason
-    */
+    *//*
     public function activityApi(){
         $type = I('type');
         if(!$type){
@@ -29,31 +39,28 @@ class ActivityController extends CommonController {
      * 查找活动
      * @author fangdong
      * @param int $id 
-     
-    private function getActivity(){
+     */
+    public function showActivity(){
         $ActivityID = I('id');
         if(!$ActivityID){
             ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
         }
-        $departInfo = M('Department')->where('id ='.$ActivityID)->find();
-        if($departInfo){
-            ajax_return($departInfo,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
-    } */
+        $activity = M('Activity')->where(array('id'=>$ActivityID))->find();
+        $this->activity=$activity;
+        $this->display();
+    } 
     /**
      * 创建活动
      * @author fangdong
      * @param string ActivityTheme  活动名称
      */
-    private function addActivity(){
+    public function addActivity(){
         $ActivityInfo = I();
         $rCreateActivity = D('Activity')->publish_activity($ActivityInfo);
         if($rCreateActivity){
-            ajax_return('活动已添加，等待审核',C('Ok'),'Ok');
+            $this->success('活动已添加，等待审核','index',3);
         }else{
-            ajax_return('活动添加失败',C('Error'),'Error');
+            $this->error('添加失败');
         }
     }
     /**
@@ -61,7 +68,7 @@ class ActivityController extends CommonController {
      * @author fangdong
      * @param int  $ActivityID  活动主键id
      */
-    private function putActivity(){
+    public function putActivity(){
         $ActivityID = I('id');
         if(!$ActivityID){
             ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
@@ -76,8 +83,8 @@ class ActivityController extends CommonController {
         }
         $data['theme'] = $theme;
         $data['content'] = $content;
-        $updateInfo = D('Activity')->where(array('id')=>$ActivityID)->save($data);
-        if($departInfo){
+        $updateInfo = D('Activity')->where(array('id'=>$ActivityID))->save($data);
+        if($updateInfo){
             ajax_return('活动已更新',C('Ok'),'Ok');
         }else{
             ajax_return('活动更新失败！',C('Error'),'Error');
@@ -88,7 +95,7 @@ class ActivityController extends CommonController {
      * @author fangdong
      * @param mixed $checkbox  被选中的ID
      */
-    private function deleteActivity(){
+    public function deleteActivity(){
         $checkbox = I('checkbox');
         if($checkbox == ''){
             ajax_return('请选择要删除的活动',C('NoSearchCondition'),'NoSearchCondition');
@@ -102,7 +109,7 @@ class ActivityController extends CommonController {
         if($list!==false){
             ajax_return("已删除{$list}个活动",C('Ok'),'Ok');
         }else{
-            ajax_return('未能成功删除活动',C('Error'),'Error');
+            ajax_return('删除失败',C('Error'),'Error');
         }
     }
 }

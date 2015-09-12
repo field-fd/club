@@ -7,5 +7,13 @@ class IndexController extends CommonController {
     	$this->display();
     }
 
+  /**
+   * 退出登录
+   * @author fangdong
+   */
+  public function loginOut(){
+  	    session(null);
+		    $this->redirect('Login/index');
+  }
 }
 

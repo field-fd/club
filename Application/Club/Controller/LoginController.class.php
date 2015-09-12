@@ -25,6 +25,7 @@ class LoginController extends Controller{
          if ($clubInfo){
              session('club_id',$clubInfo['id']);
              session('club_name',$clubInfo['name']);
+             session('club_image',$clubInfo['image']);
 		         ajax_return('登陆成功',C('LoginSuccess'),'LoginSuccess');
          }else{
 		        ajax_return('登录失败',C('Error'),'Error');

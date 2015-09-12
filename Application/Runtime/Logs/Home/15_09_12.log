@@ -1,0 +1,151 @@
+[ 2015-09-12T11:26:40+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-09-12T11:29:06+08:00 ] 127.0.0.1 /club/Public/css/images/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+
+[ 2015-09-12T11:31:20+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-09-12T11:33:02+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+
+[ 2015-09-12T12:25:47+08:00 ] 127.0.0.1 /club/Public/css/images/.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-09-12T13:05:48+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-09-12T13:05:51+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-09-12T13:09:39+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-09-12T13:10:01+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2015-09-12T13:17:07+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-09-12T13:18:00+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-09-12T13:18:57+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2015-09-12T13:20:15+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-09-12T13:21:57+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-09-12T13:24:02+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-09-12T13:24:33+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b4602fd7323.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+
+[ 2015-09-12T13:24:36+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-09-12T13:24:47+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b4602fd7323.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-09-12T13:25:08+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b4602fd7323.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2015-09-12T13:25:13+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-09-12T13:25:58+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-09-12T13:26:04+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-09-12T13:26:46+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+
+[ 2015-09-12T13:27:20+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2015-09-12T13:27:26+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b45f2d54e21.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-09-12T13:27:30+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+
+[ 2015-09-12T13:27:34+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b4602fd7323.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-09-12T13:27:42+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b4602fd7323.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2015-09-12T13:33:13+08:00 ] 127.0.0.1 /club/Public/Uploads/2015-07-26/55b448855e75a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-09-12T13:37:43+08:00 ] 127.0.0.1 /club/Public/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:Public
+

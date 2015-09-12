@@ -9,11 +9,8 @@ class ActivityController extends CommonController {
     public function index(){
       $where['status'] = 0;  //0待审核，1通过，2驳回，3删除到回收站
       $list = M('activity')->where($where)->order('id DESC')->select();
-      if($list){
-            ajax_return($list,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+      $this->list=$list;
+      $this->display();
     }
   /**
    * 活动详细信息展示
@@ -24,12 +21,9 @@ class ActivityController extends CommonController {
       if(!$activityID){
             ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
         }
-      $data=M('activity')->where(array('id'=>$activityID))->find();
-      if($data){
-            ajax_return($data,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+      $activityInfo=M('activity')->where(array('id'=>$activityID))->find();
+      $this->activity=$activityInfo;
+      $this->display();
    }
 /**
    * 通过　
@@ -72,11 +66,8 @@ class ActivityController extends CommonController {
    public function recycle(){
       $where['status'] = 3; 
       $list = M('activity')->where($where)->order('id DESC')->select();
-      if($list){
-            ajax_return($list,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+      $this->list=$list;
+      $this->display();
     }
 
 /**
@@ -93,7 +84,7 @@ class ActivityController extends CommonController {
         if($alter){
             ajax_return('删除成功',C('Ok'),'Ok');
         }else{
-            ajax_return('失败',C('Error'),'Error');
+            ajax_return('删除失败',C('Error'),'Error');
       }
    }
 
@@ -111,7 +102,7 @@ class ActivityController extends CommonController {
         if($alter){
              ajax_return('还原成功',C('Ok'),'Ok');
         }else{
-             ajax_return('失败',C('Error'),'Error');
+             ajax_return('还原失败',C('Error'),'Error');
       }
    }
 
@@ -121,13 +112,37 @@ class ActivityController extends CommonController {
    */
    public function passedActivity(){
         $where['status'] = 1;  //0待审核，1通过，2驳回，3删除到回收站
-      $list = M('activity')->where($where)->order('id DESC')->select();
-      if($list){
-            ajax_return($list,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+        $list = M('activity')->where($where)->order('id DESC')->select();
+        $this->list=$list;
+        $this->display();
    }
 
+
+ /**
+    * 已通过活动的详细资料展示
+    * @author fangdong
+    */
+   public function showPassedActivity(){
+      $activityID = I('id');
+      if(!$activityID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $activityInfo=M('activity')->where(array('id'=>$activityID))->find();
+      $this->activity=$activityInfo;
+      $this->display();
+   }
+    /**
+    * 已删除社团的详细资料展示
+    * @author fangdong
+    */
+   public function showDeleteActivity(){
+      $activityID = I('id');
+      if(!$activityID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $activityInfo=M('activity')->where(array('id'=>$activityID))->find();
+      $this->activity=$activityInfo;
+      $this->display();
+   }
 }
 

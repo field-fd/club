@@ -7,7 +7,10 @@ class MyClubController extends CommonController {
   * @author fangdong
   */
   public function index(){  
-    	$studentID = session('stu_id');
+    	$studentID = I('stu_id');
+    	if(!$studentID){
+                  ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+             }
     	//$data = M('club')->query("SELECT * FROM club_club WHERE id in (SELECT club_id FROM club_member WHERE stu_id = {$studentID} AND status = 1)");  //嵌套查询
     	$clubInfo = M()->table(array('club_member'=>'a','club_club'=>'b'))->field('b.*')->where("a.club_id = b.id AND a.stu_id = {$studentID} AND a.status = 1")->select();  //联表查询
     	if($clubInfo){

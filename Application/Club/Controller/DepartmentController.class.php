@@ -7,17 +7,15 @@ class DepartmentController extends CommonController {
      * @author fangdong
      */
  public function index(){
-        $list = M('department')->select();
-	    if($list){
-            ajax_return($list,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+        $where['club_id'] = session('club_id');
+        $list = M('department')->where($where)->select();
+	      $this->list=$list;
+        $this->display();
       }
    /**
-    * 部门操作接口
+     * 部门操作接口
      * @author jason
-    */
+     *//*
     public function departmentApi(){
         $type = I('type');
         if(!$type){
@@ -58,7 +56,7 @@ class DepartmentController extends CommonController {
      * 创建部门
      * @author fangdong
      */
-    private function addDepart(){
+    public function addDepart(){
         $club_id = session('club_id');
         $name    = I('departmentName');
         if($name==""){
@@ -85,7 +83,7 @@ class DepartmentController extends CommonController {
      * 更新部门资料
      * @author fangdong
      */
-    private function putDepart(){
+    public function putDepart(){
         $departID = I('id');
         if(!$departID){
              ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
@@ -95,7 +93,6 @@ class DepartmentController extends CommonController {
          if($name==""){
             ajax_return('部门名称不可为空',C('DepartEmpty'),'DepartEmpty');
         }
-        $introduce = I('introduce');
         if($introduce==""){
             ajax_return('部门介绍不可为空',C('IntroError'),'IntroError');
         }
@@ -113,7 +110,7 @@ class DepartmentController extends CommonController {
      * 删除部门
      * @author fangdong
      */
-    private function deleteDepart(){
+    public function deleteDepart(){
         $checkbox = I('checkbox');
         if($checkbox == ''){
             ajax_return('请选择要删除的部门',C('NoSearchCondition'),'NoSearchCondition');
@@ -127,7 +124,7 @@ class DepartmentController extends CommonController {
         if($list!==false){
              ajax_return("已删除{$list}个部门",C('Ok'),'Ok');
         }else{
-             ajax_return('未能成功删除部门',C('Error'),'Error');
+             ajax_return('删除失败',C('Error'),'Error');
         }
     }
 }

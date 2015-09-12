@@ -31,18 +31,137 @@ class RegisterController extends Controller {
             $clubInfo = I();
             D('Club')->checkInfo($clubInfo);
         }
+
         /**
          * 注册信息保存
          * @author Jason
          */
         public function handle(){
-            $clubData = I();
-            $Club     = D('Club');
-            $rSave    = $Club->SaveData($clubData);
+            $registerInfo = I();
+            foreach ($registerInfo as $key => $value) {
+                switch ($key) {
+                    case 'email':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入邮箱');
+                        }
+                        $condition['email'] = $registerInfo['email'];
+                            if(M('Club')->where($condition)->find()){
+                                $this->error('该邮箱已注册');
+                            }
+                         if(!preg_match("/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/",$registerInfo[$key])){  
+                             $this->error('请输入正确的邮箱地址');
+                        }
+                        break;
+                    case 'password':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入密码');
+                        }
+                        $passwd_length = strlen($registerInfo[$key]);
+                        if($passwd_length<6||$passwd_length>16){  
+                             $this->error('请输入6~16位之间的密码');
+                        }
+                        break;
+                    case 'repassword':
+                        if($registerInfo[$key]==''){
+                            $this->error('请再次输入密码');
+                        }
+                        if($registerInfo['password']!=$registerInfo['repassword']){  
+                             $this->error('两次输入密码不一样');
+                        }
+                        break;
+                    case 'verify':
+                        if(!check_verify($registerInfo[$key])){
+                            $this->error('验证码错误');
+                        }
+                        break;
+                    case 'leader':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入负责人姓名');
+                        }
+                        break;
+
+                    case 'phone':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入手机号码');
+                        }
+                        break;
+
+                    case 'qq':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入QQ号码');
+                        }
+                        break;
+                    case 'name':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入社团名');
+                          }
+                        break;
+
+                    case 'logo':
+                        if($registerInfo[$key]==''){
+                            $this->error('请选择社团logo');
+                        }
+                        break;
+
+                    case 'type':
+                        if($registerInfo[$key]==''){
+                            $this->error('请选择社团类型');
+                        }
+                        break;
+
+                    case 'relation':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入所属院系');
+                        }                     
+                        break;
+
+                    case 'introduce':
+                        if($registerInfo[$key]==''){
+                            $this->error('请输入社团介绍');
+                        }
+                        if(strlen($registerInfo[$key])<180){
+                            $this->error('社团介绍不少于60个字');
+                        }
+                        break;
+
+                    case 'teacher':
+                        if($registerInfo[$key]==''){
+                            $this->error('请填写指导老师姓名');
+                        }
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+            //图片上传
+            $upload = new \Think\Upload();// 实例化上传类
+            $upload->maxSize   =     1048576 ;// 设置附件上传大小
+            $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+            $upload->rootPath  =     './Public/Uploads/'; // 设置附件上传根目录
+            $info   =   $upload->uploadOne($_FILES['image']);  //上传图片
+            if(!$info) {// 上传错误
+                $this->error($upload->getError()); 
+            }
+            $data = array(
+                'name' => $registerInfo['name'],
+                'type' => $registerInfo['type'],
+                'introduce' => $registerInfo['introduce'],
+                'relation' => $registerInfo['relation'],
+                'leader' => $registerInfo['leader'],
+                'teacher' => $registerInfo['teacher'],
+                'qq' => $registerInfo['qq'],
+                'phone' => $registerInfo['phone'],
+                'email' => $registerInfo['email'],
+                'image' => $info['savepath'].$info['savename'],
+                'password' => md5($registerInfo['password']),
+            );
+            $Club     = M('Club');
+            $rSave = $Club->add($data);
             if($rSave){
-                ajax_return('资料提交成功，我们会在三个工作日内审核您的资料~',C('Ok'),'Ok');
+                $this->success('资料提交成功，我们会在三个工作日内审核您的资料~');
             }else{
-                ajax_return('资料提交失败！',C('Error'),'Error');
+                $this->error('资料提交失败！');
             }
         }
 /**

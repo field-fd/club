@@ -16,7 +16,6 @@ class ApplyClubController extends CommonController {
                 ajax_return('未查询到数据',C('NoData'),'NoData');
             }
       }
-
      /**
       * 社团详细介绍
       * @author fangdong
@@ -54,17 +53,28 @@ class ApplyClubController extends CommonController {
                  ajax_return('未查询到数据',C('NoData'),'NoData');
              }
         }
-
+  /**
+   * 申请信息检查
+   * @author fangdong
+   */
+ public function infoCheck(){
+        $postData = I();
+        $member      = D('member');
+        $member->checkInfo($postData);
+        }
         /**
          * 申请加入社团数据处理
          * @author fangdong
          */
      public function applyJoin(){
-                $postData   = I();
+               $stu_id  = 2;//I('stu_id');
+               if(!$stu_id){
+                    ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+               }
+                $postData   = I();              
                 $member = D('member');
                 //数据验证
-                $member ->checkInfo($postData);
-               
+                $member->checkInfo($postData);               
                 $r = $member->apply_data_insert($postData);//插入数据
                 if($r){
                     ajax_return('资料已经提交啦，敬候佳音吧~',C('Ok'),'Ok');

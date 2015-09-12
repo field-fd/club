@@ -9,11 +9,8 @@ class ClubController extends CommonController{
    public function index(){
       $where['status'] = 0;  //0待审核，1通过，2驳回，3删除到回收站
       $list = M('club')->where($where)->order('id DESC')->select();
-      if($list){
-            ajax_return($list,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+      $this->list=$list;
+      $this->display();
     }
   /**
    * 社团的申请资料展示
@@ -25,11 +22,8 @@ class ClubController extends CommonController{
             ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
         }
       $clubInfo=M('club')->where(array('id'=>$clubID))->find();
-      if($clubInfo){
-            ajax_return($clubInfo,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+      $this->club=$clubInfo;
+      $this->display();
    }
   /**
    * 通过
@@ -72,11 +66,8 @@ class ClubController extends CommonController{
    public function recycle(){
       $where['status'] = 3;  //删除
       $list = M('club')->where($where)->order('id DESC')->select();
-      if($list){
-            ajax_return($list,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+      $this->list=$list;
+      $this->display();
     }
   /**
    * 删除到回收站
@@ -119,13 +110,35 @@ class ClubController extends CommonController{
    */
    public function passedClub(){
         $where['status'] = 1;  //通过
-        $allClub = M('club')->where($where)->order('id DESC')->select();
-        if($allClub){
-            ajax_return($allClub,C('Ok'),'Ok');
-        }else{
-            ajax_return('未查询到数据',C('NoData'),'NoData');
-        }
+        $list = M('club')->where($where)->order('id DESC')->select();
+        $this->list=$list;
+        $this->display();
    }
-
+  /**
+    * 已通过社团的详细资料展示
+    * @author fangdong
+    */
+   public function showPassedClub(){
+      $clubID = I('id');
+      if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $clubInfo=M('club')->where(array('id'=>$clubID))->find();
+      $this->club=$clubInfo;
+      $this->display();
+   }
+    /**
+    * 已删除社团的详细资料展示
+    * @author fangdong
+    */
+   public function showDeleteClub(){
+      $clubID = I('id');
+      if(!$clubID){
+            ajax_return('缺少查询的条件',C('NoSearchCondition'),'NoSearchCondition');
+        }
+      $memberInfo=M('club')->where(array('id'=>$clubID))->find();
+      $this->club=$memberInfo;
+      $this->display();
+   }
 }
 

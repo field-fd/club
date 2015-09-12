@@ -1,8 +1,7 @@
 <?php
 namespace Club\Model;
 use Think\Model;
-class MemberModel extends Model
-{
+class MemberModel extends Model{
     /**
      * 成员状态修改， 0待审核，1通过，2驳回，3删除到回收站
      * @author Jason
@@ -14,9 +13,4 @@ class MemberModel extends Model
         return $result;
     }
 
-
-
-
-
-
- ｝
+}
